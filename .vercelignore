@@ -1,0 +1,26 @@
+# 排除大文件PDF
+*.pdf
+
+# 排除开发文件
+node_modules
+.next
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 排除部署相关文件
+CHINA_DEPLOYMENT.md
+DEPLOYMENT.md
+DEPLOYMENT_CHECKLIST.md
+PURCHASE_GUIDE.md
+server-setup.sh
+ssl-setup.sh
+deploy.sh
+docker-compose.yml
+Dockerfile
+nginx.conf
+
+# 排除系统文件
+.DS_Store
+Thumbs.db

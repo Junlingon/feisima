@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# 网站地图
+Sitemap: https://viesmar.com.cn/sitemap.xml
+
+# 禁止访问的目录
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# 搜索引擎优化
+# 百度爬虫
+User-agent: Baiduspider
+Allow: /
+
+# 谷歌爬虫
+User-agent: Googlebot
+Allow: /
+
+# 360爬虫
+User-agent: 360Spider
+Allow: /
+
+# 搜狗爬虫
+User-agent: Sogou web spider
+Allow: /
