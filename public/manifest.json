@@ -1,0 +1,20 @@
+{
+  "name": "菲斯玛卫浴 - 高端浴室柜与淋浴房定制",
+  "short_name": "菲斯玛卫浴",
+  "description": "英国NOLLIR集团旗下菲斯玛品牌，专注高端浴室柜和淋浴房定制，提供优质的卫浴解决方案",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a365d",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["business", "lifestyle", "shopping"],
+  "lang": "zh-CN",
+  "dir": "ltr"
+}
