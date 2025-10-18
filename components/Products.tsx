@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { ChevronLeft, ChevronRight, Eye, Heart, ShoppingCart, Filter, Grid, List } from 'lucide-react'
+import ProductImage from './ProductImage'
 
 const Products = () => {
   const [ref, inView] = useInView({
@@ -29,7 +30,7 @@ const Products = () => {
       name: 'VSMS-7423 现代简约浴室柜',
       category: 'stainless',
       price: '¥8,800 - ¥12,800',
-      images: ['/images/stainless-1.jpg', '/images/stainless-1-2.jpg'],
+      images: ['/images/products/stainless/stainless-10.webp', '/images/products/stainless/stainless-11.webp'],
       features: ['304不锈钢材质', '防水防潮', '现代简约设计', '多种尺寸可选'],
       description: '采用优质304不锈钢材质，表面经过精细拉丝处理，防水防潮性能卓越，适合现代简约风格浴室。'
     },
@@ -38,7 +39,7 @@ const Products = () => {
       name: 'VSMS-8018 轻奢系列浴室柜',
       category: 'stainless',
       price: '¥10,800 - ¥15,800',
-      images: ['/images/stainless-2.jpg', '/images/stainless-2-2.jpg'],
+      images: ['/images/products/stainless/stainless-regular-10.webp', '/images/products/stainless/stainless-regular-11.webp'],
       features: ['316L不锈钢', '抗菌涂层', '轻奢设计', '智能收纳'],
       description: '316L医用级不锈钢打造，配备抗菌涂层，轻奢设计风格，智能收纳系统，提升使用体验。'
     },
@@ -47,7 +48,7 @@ const Products = () => {
       name: 'VSMS-9020 大师系列浴室柜',
       category: 'stainless',
       price: '¥15,800 - ¥22,800',
-      images: ['/images/stainless-3.jpg', '/images/stainless-3-2.jpg'],
+      images: ['/images/products/stainless/stainless-12.webp', '/images/products/stainless/stainless-13.webp'],
       features: ['手工拉丝工艺', '大师级设计', '定制尺寸', '终身保修'],
       description: '大师级手工拉丝工艺，独特的设计美学，支持完全定制尺寸，提供终身保修服务。'
     },
@@ -57,7 +58,7 @@ const Products = () => {
       name: 'VSMW-15118 北欧风情浴室柜',
       category: 'wood',
       price: '¥6,800 - ¥9,800',
-      images: ['/images/wood-1.jpg', '/images/wood-1-2.jpg'],
+      images: ['/images/products/wood/wood-10.webp', '/images/products/wood/wood-11.webp', '/images/products/wood/wood-12.webp'],
       features: ['进口橡木', '环保漆面', '北欧设计', '防水处理'],
       description: '精选进口橡木，环保水性漆面处理，北欧简约设计风格，经过专业防水处理工艺。'
     },
@@ -66,7 +67,7 @@ const Products = () => {
       name: 'VSMW-17920 新中式浴室柜',
       category: 'wood',
       price: '¥9,800 - ¥14,800',
-      images: ['/images/wood-2.jpg', '/images/wood-2-2.jpg'],
+      images: ['/images/products/wood/wood-20.webp', '/images/products/wood/wood-21.webp'],
       features: ['胡桃木材质', '新中式设计', '榫卯工艺', '文化内涵'],
       description: '优质胡桃木材质，融合传统榫卯工艺与现代设计理念，体现深厚的文化内涵。'
     },
@@ -75,7 +76,7 @@ const Products = () => {
       name: 'VSMW-20513 奢华定制浴室柜',
       category: 'wood',
       price: '¥18,800 - ¥28,800',
-      images: ['/images/wood-3.jpg', '/images/wood-3-2.jpg'],
+      images: ['/images/products/wood/wood-30.webp', '/images/products/wood/wood-31.webp'],
       features: ['红木材质', '手工雕刻', '奢华定制', '艺术收藏'],
       description: '珍贵红木材质，大师级手工雕刻工艺，奢华定制服务，具有艺术收藏价值。'
     },
@@ -85,7 +86,7 @@ const Products = () => {
       name: '一字型淋浴房',
       category: 'shower',
       price: '¥4,800 - ¥8,800',
-      images: ['/images/shower-1.jpg', '/images/shower-1-2.jpg'],
+      images: ['/images/products/shower/shower-10.webp'],
       features: ['钢化玻璃', '304不锈钢框架', '防爆膜', '定制安装'],
       description: '8mm钢化玻璃配304不锈钢框架，贴防爆膜处理，专业测量定制安装。'
     },
@@ -94,7 +95,7 @@ const Products = () => {
       name: '转角型淋浴房',
       category: 'shower',
       price: '¥6,800 - ¥12,800',
-      images: ['/images/shower-2.jpg', '/images/shower-2-2.jpg'],
+      images: ['/images/products/shower/shower-20.webp'],
       features: ['无框设计', '静音滑轮', '防水胶条', '空间优化'],
       description: '无框简约设计，静音滑轮系统，优质防水胶条，最大化利用转角空间。'
     }
@@ -220,17 +221,11 @@ const Products = () => {
                 <div className={`relative overflow-hidden ${
                   viewMode === 'list' ? 'md:w-1/2' : 'aspect-[4/3]'
                 }`}>
-                  <div className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
-                    <div className="text-center text-gray-500">
-                      <div className="w-16 h-16 bg-gold-100 rounded-lg flex items-center justify-center mx-auto mb-3">
-                        <span className="text-gold-600 font-bold text-lg">
-                          {product.category === 'stainless' ? '钢' : 
-                           product.category === 'wood' ? '木' : '浴'}
-                        </span>
-                      </div>
-                      <p className="font-medium">{product.name}</p>
-                    </div>
-                  </div>
+                  <ProductImage
+                    images={product.images}
+                    alt={product.name}
+                    className="w-full h-full"
+                  />
                   
                   {/* 悬停操作按钮 */}
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
