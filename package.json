@@ -6,24 +6,42 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "extract-images": "node scripts/extract-pdf-images.js",
+    "update-images": "node scripts/update-image-paths.js",
+    "setup-images": "npm run extract-images && npm run update-images",
+    "optimize-images": "node scripts/optimize-images.js",
+    "generate-deploy-config": "node scripts/generate-deployment-config.js",
+    "prepare-deploy": "npm run optimize-images && npm run generate-deploy-config",
+    "deploy-tencent": "./deployment/one-click-deploy.sh",
+    "deploy-server-only": "./deployment/deploy-server.sh",
+    "update-images": "./deployment/update-images.sh",
+    "update-lightweight": "./deployment/update-lightweight.sh",
+    "check-deployment": "./deployment/check-deployment.sh",
+    "cleanup-duplicates": "./scripts/cleanup-duplicates.sh",
+    "create-lightweight": "./scripts/create-lightweight-deploy.sh",
+    "optimize-storage": "node scripts/cleanup-and-optimize.js"
   },
   "dependencies": {
+    "framer-motion": "^10.18.0",
+    "lucide-react": "^0.292.0",
     "next": "14.0.0",
+    "pdf-poppler": "^0.2.3",
+    "pdf2pic": "^3.2.0",
     "react": "^18",
     "react-dom": "^18",
-    "framer-motion": "^10.16.0",
-    "lucide-react": "^0.292.0"
+    "react-intersection-observer": "^9.16.0",
+    "sharp": "^0.34.4"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.0"
+    "typescript": "^5"
   }
 }

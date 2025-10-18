@@ -1,0 +1,1212 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-18T05:58:35.184Z",
+  "categories": {
+    "stainless": {
+      "count": 126,
+      "totalSize": 54482298,
+      "files": [
+        {
+          "filename": "stainless-10.jpg",
+          "path": "/images/products/stainless/stainless-10.jpg",
+          "size": 236013,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-11.jpg",
+          "path": "/images/products/stainless/stainless-11.jpg",
+          "size": 712217,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-12.jpg",
+          "path": "/images/products/stainless/stainless-12.jpg",
+          "size": 321440,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-13.jpg",
+          "path": "/images/products/stainless/stainless-13.jpg",
+          "size": 490537,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-14.jpg",
+          "path": "/images/products/stainless/stainless-14.jpg",
+          "size": 423213,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-15.jpg",
+          "path": "/images/products/stainless/stainless-15.jpg",
+          "size": 410177,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-16.jpg",
+          "path": "/images/products/stainless/stainless-16.jpg",
+          "size": 751052,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-17.jpg",
+          "path": "/images/products/stainless/stainless-17.jpg",
+          "size": 327808,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-18.jpg",
+          "path": "/images/products/stainless/stainless-18.jpg",
+          "size": 436807,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-19.jpg",
+          "path": "/images/products/stainless/stainless-19.jpg",
+          "size": 224559,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-20.jpg",
+          "path": "/images/products/stainless/stainless-20.jpg",
+          "size": 745117,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-21.jpg",
+          "path": "/images/products/stainless/stainless-21.jpg",
+          "size": 563916,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-22.jpg",
+          "path": "/images/products/stainless/stainless-22.jpg",
+          "size": 623637,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-23.jpg",
+          "path": "/images/products/stainless/stainless-23.jpg",
+          "size": 373605,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-24.jpg",
+          "path": "/images/products/stainless/stainless-24.jpg",
+          "size": 597323,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-25.jpg",
+          "path": "/images/products/stainless/stainless-25.jpg",
+          "size": 762058,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-26.jpg",
+          "path": "/images/products/stainless/stainless-26.jpg",
+          "size": 659532,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-27.jpg",
+          "path": "/images/products/stainless/stainless-27.jpg",
+          "size": 410008,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-28.jpg",
+          "path": "/images/products/stainless/stainless-28.jpg",
+          "size": 442627,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-29.jpg",
+          "path": "/images/products/stainless/stainless-29.jpg",
+          "size": 304873,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-30.jpg",
+          "path": "/images/products/stainless/stainless-30.jpg",
+          "size": 639130,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-31.jpg",
+          "path": "/images/products/stainless/stainless-31.jpg",
+          "size": 363039,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-32.jpg",
+          "path": "/images/products/stainless/stainless-32.jpg",
+          "size": 442850,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-33.jpg",
+          "path": "/images/products/stainless/stainless-33.jpg",
+          "size": 313436,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-34.jpg",
+          "path": "/images/products/stainless/stainless-34.jpg",
+          "size": 410815,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-35.jpg",
+          "path": "/images/products/stainless/stainless-35.jpg",
+          "size": 376030,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-36.jpg",
+          "path": "/images/products/stainless/stainless-36.jpg",
+          "size": 310217,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-37.jpg",
+          "path": "/images/products/stainless/stainless-37.jpg",
+          "size": 312244,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-38.jpg",
+          "path": "/images/products/stainless/stainless-38.jpg",
+          "size": 483216,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-39.jpg",
+          "path": "/images/products/stainless/stainless-39.jpg",
+          "size": 688355,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-40.jpg",
+          "path": "/images/products/stainless/stainless-40.jpg",
+          "size": 378515,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-41.jpg",
+          "path": "/images/products/stainless/stainless-41.jpg",
+          "size": 393498,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-42.jpg",
+          "path": "/images/products/stainless/stainless-42.jpg",
+          "size": 340731,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-43.jpg",
+          "path": "/images/products/stainless/stainless-43.jpg",
+          "size": 491736,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-44.jpg",
+          "path": "/images/products/stainless/stainless-44.jpg",
+          "size": 474802,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-45.jpg",
+          "path": "/images/products/stainless/stainless-45.jpg",
+          "size": 432005,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-46.jpg",
+          "path": "/images/products/stainless/stainless-46.jpg",
+          "size": 369981,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-47.jpg",
+          "path": "/images/products/stainless/stainless-47.jpg",
+          "size": 241808,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-48.jpg",
+          "path": "/images/products/stainless/stainless-48.jpg",
+          "size": 381625,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-49.jpg",
+          "path": "/images/products/stainless/stainless-49.jpg",
+          "size": 240067,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-50.jpg",
+          "path": "/images/products/stainless/stainless-50.jpg",
+          "size": 284663,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-51.jpg",
+          "path": "/images/products/stainless/stainless-51.jpg",
+          "size": 410671,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-52.jpg",
+          "path": "/images/products/stainless/stainless-52.jpg",
+          "size": 377250,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-53.jpg",
+          "path": "/images/products/stainless/stainless-53.jpg",
+          "size": 358866,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-54.jpg",
+          "path": "/images/products/stainless/stainless-54.jpg",
+          "size": 230467,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-55.jpg",
+          "path": "/images/products/stainless/stainless-55.jpg",
+          "size": 309127,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-56.jpg",
+          "path": "/images/products/stainless/stainless-56.jpg",
+          "size": 386000,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-57.jpg",
+          "path": "/images/products/stainless/stainless-57.jpg",
+          "size": 380794,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-58.jpg",
+          "path": "/images/products/stainless/stainless-58.jpg",
+          "size": 368366,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-59.jpg",
+          "path": "/images/products/stainless/stainless-59.jpg",
+          "size": 420236,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-60.jpg",
+          "path": "/images/products/stainless/stainless-60.jpg",
+          "size": 271681,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-61.jpg",
+          "path": "/images/products/stainless/stainless-61.jpg",
+          "size": 479264,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-62.jpg",
+          "path": "/images/products/stainless/stainless-62.jpg",
+          "size": 752235,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-63.jpg",
+          "path": "/images/products/stainless/stainless-63.jpg",
+          "size": 524041,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-64.jpg",
+          "path": "/images/products/stainless/stainless-64.jpg",
+          "size": 237068,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-65.jpg",
+          "path": "/images/products/stainless/stainless-65.jpg",
+          "size": 327421,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-66.jpg",
+          "path": "/images/products/stainless/stainless-66.jpg",
+          "size": 269846,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-67.jpg",
+          "path": "/images/products/stainless/stainless-67.jpg",
+          "size": 168109,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-68.jpg",
+          "path": "/images/products/stainless/stainless-68.jpg",
+          "size": 680279,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-69.jpg",
+          "path": "/images/products/stainless/stainless-69.jpg",
+          "size": 285301,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-70.jpg",
+          "path": "/images/products/stainless/stainless-70.jpg",
+          "size": 568349,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-71.jpg",
+          "path": "/images/products/stainless/stainless-71.jpg",
+          "size": 395354,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-72.jpg",
+          "path": "/images/products/stainless/stainless-72.jpg",
+          "size": 428010,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-73.jpg",
+          "path": "/images/products/stainless/stainless-73.jpg",
+          "size": 217173,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-74.jpg",
+          "path": "/images/products/stainless/stainless-74.jpg",
+          "size": 494594,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-75.jpg",
+          "path": "/images/products/stainless/stainless-75.jpg",
+          "size": 252985,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-76.jpg",
+          "path": "/images/products/stainless/stainless-76.jpg",
+          "size": 330742,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-77.jpg",
+          "path": "/images/products/stainless/stainless-77.jpg",
+          "size": 359225,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-78.jpg",
+          "path": "/images/products/stainless/stainless-78.jpg",
+          "size": 191512,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-79.jpg",
+          "path": "/images/products/stainless/stainless-79.jpg",
+          "size": 473581,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-80.jpg",
+          "path": "/images/products/stainless/stainless-80.jpg",
+          "size": 262811,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-81.jpg",
+          "path": "/images/products/stainless/stainless-81.jpg",
+          "size": 378138,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-82.jpg",
+          "path": "/images/products/stainless/stainless-82.jpg",
+          "size": 315812,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-83.jpg",
+          "path": "/images/products/stainless/stainless-83.jpg",
+          "size": 501987,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-84.jpg",
+          "path": "/images/products/stainless/stainless-84.jpg",
+          "size": 376754,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-85.jpg",
+          "path": "/images/products/stainless/stainless-85.jpg",
+          "size": 418897,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-86.jpg",
+          "path": "/images/products/stainless/stainless-86.jpg",
+          "size": 374928,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-87.jpg",
+          "path": "/images/products/stainless/stainless-87.jpg",
+          "size": 921738,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-88.jpg",
+          "path": "/images/products/stainless/stainless-88.jpg",
+          "size": 421343,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-89.jpg",
+          "path": "/images/products/stainless/stainless-89.jpg",
+          "size": 441618,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-96.jpg",
+          "path": "/images/products/stainless/stainless-96.jpg",
+          "size": 475415,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-10.jpg",
+          "path": "/images/products/stainless/stainless-regular-10.jpg",
+          "size": 648139,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-11.jpg",
+          "path": "/images/products/stainless/stainless-regular-11.jpg",
+          "size": 302678,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-12.jpg",
+          "path": "/images/products/stainless/stainless-regular-12.jpg",
+          "size": 433209,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-13.jpg",
+          "path": "/images/products/stainless/stainless-regular-13.jpg",
+          "size": 71718,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-14.jpg",
+          "path": "/images/products/stainless/stainless-regular-14.jpg",
+          "size": 204962,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-15.jpg",
+          "path": "/images/products/stainless/stainless-regular-15.jpg",
+          "size": 499649,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-16.jpg",
+          "path": "/images/products/stainless/stainless-regular-16.jpg",
+          "size": 537759,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-17.jpg",
+          "path": "/images/products/stainless/stainless-regular-17.jpg",
+          "size": 613955,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-18.jpg",
+          "path": "/images/products/stainless/stainless-regular-18.jpg",
+          "size": 610352,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-19.jpg",
+          "path": "/images/products/stainless/stainless-regular-19.jpg",
+          "size": 443688,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-20.jpg",
+          "path": "/images/products/stainless/stainless-regular-20.jpg",
+          "size": 465628,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-21.jpg",
+          "path": "/images/products/stainless/stainless-regular-21.jpg",
+          "size": 504152,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-22.jpg",
+          "path": "/images/products/stainless/stainless-regular-22.jpg",
+          "size": 210829,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-23.jpg",
+          "path": "/images/products/stainless/stainless-regular-23.jpg",
+          "size": 304810,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-24.jpg",
+          "path": "/images/products/stainless/stainless-regular-24.jpg",
+          "size": 445016,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-25.jpg",
+          "path": "/images/products/stainless/stainless-regular-25.jpg",
+          "size": 955619,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-26.jpg",
+          "path": "/images/products/stainless/stainless-regular-26.jpg",
+          "size": 376900,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-27.jpg",
+          "path": "/images/products/stainless/stainless-regular-27.jpg",
+          "size": 881232,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-28.jpg",
+          "path": "/images/products/stainless/stainless-regular-28.jpg",
+          "size": 594052,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-29.jpg",
+          "path": "/images/products/stainless/stainless-regular-29.jpg",
+          "size": 661989,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-30.jpg",
+          "path": "/images/products/stainless/stainless-regular-30.jpg",
+          "size": 951300,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-31.jpg",
+          "path": "/images/products/stainless/stainless-regular-31.jpg",
+          "size": 505849,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-32.jpg",
+          "path": "/images/products/stainless/stainless-regular-32.jpg",
+          "size": 276641,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-33.jpg",
+          "path": "/images/products/stainless/stainless-regular-33.jpg",
+          "size": 334463,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-34.jpg",
+          "path": "/images/products/stainless/stainless-regular-34.jpg",
+          "size": 452552,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-35.jpg",
+          "path": "/images/products/stainless/stainless-regular-35.jpg",
+          "size": 595335,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-36.jpg",
+          "path": "/images/products/stainless/stainless-regular-36.jpg",
+          "size": 429630,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-37.jpg",
+          "path": "/images/products/stainless/stainless-regular-37.jpg",
+          "size": 513034,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-38.jpg",
+          "path": "/images/products/stainless/stainless-regular-38.jpg",
+          "size": 324133,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-39.jpg",
+          "path": "/images/products/stainless/stainless-regular-39.jpg",
+          "size": 400885,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-40.jpg",
+          "path": "/images/products/stainless/stainless-regular-40.jpg",
+          "size": 215886,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-41.jpg",
+          "path": "/images/products/stainless/stainless-regular-41.jpg",
+          "size": 338004,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-42.jpg",
+          "path": "/images/products/stainless/stainless-regular-42.jpg",
+          "size": 306429,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-43.jpg",
+          "path": "/images/products/stainless/stainless-regular-43.jpg",
+          "size": 529230,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-44.jpg",
+          "path": "/images/products/stainless/stainless-regular-44.jpg",
+          "size": 277275,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-45.jpg",
+          "path": "/images/products/stainless/stainless-regular-45.jpg",
+          "size": 274627,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-46.jpg",
+          "path": "/images/products/stainless/stainless-regular-46.jpg",
+          "size": 276041,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-47.jpg",
+          "path": "/images/products/stainless/stainless-regular-47.jpg",
+          "size": 415418,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-48.jpg",
+          "path": "/images/products/stainless/stainless-regular-48.jpg",
+          "size": 434455,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-49.jpg",
+          "path": "/images/products/stainless/stainless-regular-49.jpg",
+          "size": 301140,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-50.jpg",
+          "path": "/images/products/stainless/stainless-regular-50.jpg",
+          "size": 294913,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-51.jpg",
+          "path": "/images/products/stainless/stainless-regular-51.jpg",
+          "size": 573777,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-52.jpg",
+          "path": "/images/products/stainless/stainless-regular-52.jpg",
+          "size": 435717,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-53.jpg",
+          "path": "/images/products/stainless/stainless-regular-53.jpg",
+          "size": 818266,
+          "category": "stainless"
+        },
+        {
+          "filename": "stainless-regular-54.jpg",
+          "path": "/images/products/stainless/stainless-regular-54.jpg",
+          "size": 417692,
+          "category": "stainless"
+        }
+      ]
+    },
+    "wood": {
+      "count": 36,
+      "totalSize": 12180355,
+      "files": [
+        {
+          "filename": "wood-10.jpg",
+          "path": "/images/products/wood/wood-10.jpg",
+          "size": 653805,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-100.jpg",
+          "path": "/images/products/wood/wood-100.jpg",
+          "size": 199185,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-101.jpg",
+          "path": "/images/products/wood/wood-101.jpg",
+          "size": 239629,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-102.jpg",
+          "path": "/images/products/wood/wood-102.jpg",
+          "size": 443437,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-103.jpg",
+          "path": "/images/products/wood/wood-103.jpg",
+          "size": 31365,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-104.jpg",
+          "path": "/images/products/wood/wood-104.jpg",
+          "size": 203953,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-105.jpg",
+          "path": "/images/products/wood/wood-105.jpg",
+          "size": 769954,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-106.jpg",
+          "path": "/images/products/wood/wood-106.jpg",
+          "size": 210569,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-107.jpg",
+          "path": "/images/products/wood/wood-107.jpg",
+          "size": 322489,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-108.jpg",
+          "path": "/images/products/wood/wood-108.jpg",
+          "size": 401540,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-109.jpg",
+          "path": "/images/products/wood/wood-109.jpg",
+          "size": 368783,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-110.jpg",
+          "path": "/images/products/wood/wood-110.jpg",
+          "size": 554979,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-111.jpg",
+          "path": "/images/products/wood/wood-111.jpg",
+          "size": 260882,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-112.jpg",
+          "path": "/images/products/wood/wood-112.jpg",
+          "size": 172756,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-113.jpg",
+          "path": "/images/products/wood/wood-113.jpg",
+          "size": 251281,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-114.jpg",
+          "path": "/images/products/wood/wood-114.jpg",
+          "size": 452452,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-115.jpg",
+          "path": "/images/products/wood/wood-115.jpg",
+          "size": 335474,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-116.jpg",
+          "path": "/images/products/wood/wood-116.jpg",
+          "size": 288336,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-117.jpg",
+          "path": "/images/products/wood/wood-117.jpg",
+          "size": 361108,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-118.jpg",
+          "path": "/images/products/wood/wood-118.jpg",
+          "size": 431998,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-119.jpg",
+          "path": "/images/products/wood/wood-119.jpg",
+          "size": 277041,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-120.jpg",
+          "path": "/images/products/wood/wood-120.jpg",
+          "size": 341598,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-121.jpg",
+          "path": "/images/products/wood/wood-121.jpg",
+          "size": 495454,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-122.jpg",
+          "path": "/images/products/wood/wood-122.jpg",
+          "size": 296131,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-123.jpg",
+          "path": "/images/products/wood/wood-123.jpg",
+          "size": 222254,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-124.jpg",
+          "path": "/images/products/wood/wood-124.jpg",
+          "size": 322963,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-125.jpg",
+          "path": "/images/products/wood/wood-125.jpg",
+          "size": 284803,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-126.jpg",
+          "path": "/images/products/wood/wood-126.jpg",
+          "size": 155757,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-127.jpg",
+          "path": "/images/products/wood/wood-127.jpg",
+          "size": 350712,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-128.jpg",
+          "path": "/images/products/wood/wood-128.jpg",
+          "size": 257776,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-129.jpg",
+          "path": "/images/products/wood/wood-129.jpg",
+          "size": 622503,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-130.jpg",
+          "path": "/images/products/wood/wood-130.jpg",
+          "size": 253120,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-131.jpg",
+          "path": "/images/products/wood/wood-131.jpg",
+          "size": 641829,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-132.jpg",
+          "path": "/images/products/wood/wood-132.jpg",
+          "size": 204200,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-133.jpg",
+          "path": "/images/products/wood/wood-133.jpg",
+          "size": 253760,
+          "category": "wood"
+        },
+        {
+          "filename": "wood-134.jpg",
+          "path": "/images/products/wood/wood-134.jpg",
+          "size": 246479,
+          "category": "wood"
+        }
+      ]
+    },
+    "shower": {
+      "count": 36,
+      "totalSize": 6545170,
+      "files": [
+        {
+          "filename": "shower-10.jpg",
+          "path": "/images/products/shower/shower-10.jpg",
+          "size": 189789,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-11.jpg",
+          "path": "/images/products/shower/shower-11.jpg",
+          "size": 185940,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-12.jpg",
+          "path": "/images/products/shower/shower-12.jpg",
+          "size": 183805,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-13.jpg",
+          "path": "/images/products/shower/shower-13.jpg",
+          "size": 39296,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-14.jpg",
+          "path": "/images/products/shower/shower-14.jpg",
+          "size": 179776,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-15.jpg",
+          "path": "/images/products/shower/shower-15.jpg",
+          "size": 135309,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-16.jpg",
+          "path": "/images/products/shower/shower-16.jpg",
+          "size": 143263,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-17.jpg",
+          "path": "/images/products/shower/shower-17.jpg",
+          "size": 243927,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-18.jpg",
+          "path": "/images/products/shower/shower-18.jpg",
+          "size": 209741,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-19.jpg",
+          "path": "/images/products/shower/shower-19.jpg",
+          "size": 187927,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-20.jpg",
+          "path": "/images/products/shower/shower-20.jpg",
+          "size": 124622,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-21.jpg",
+          "path": "/images/products/shower/shower-21.jpg",
+          "size": 213792,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-22.jpg",
+          "path": "/images/products/shower/shower-22.jpg",
+          "size": 138103,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-23.jpg",
+          "path": "/images/products/shower/shower-23.jpg",
+          "size": 233071,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-24.jpg",
+          "path": "/images/products/shower/shower-24.jpg",
+          "size": 194000,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-25.jpg",
+          "path": "/images/products/shower/shower-25.jpg",
+          "size": 266563,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-26.jpg",
+          "path": "/images/products/shower/shower-26.jpg",
+          "size": 247784,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-27.jpg",
+          "path": "/images/products/shower/shower-27.jpg",
+          "size": 285679,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-28.jpg",
+          "path": "/images/products/shower/shower-28.jpg",
+          "size": 162792,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-29.jpg",
+          "path": "/images/products/shower/shower-29.jpg",
+          "size": 217702,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-30.jpg",
+          "path": "/images/products/shower/shower-30.jpg",
+          "size": 148260,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-31.jpg",
+          "path": "/images/products/shower/shower-31.jpg",
+          "size": 141264,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-32.jpg",
+          "path": "/images/products/shower/shower-32.jpg",
+          "size": 143744,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-33.jpg",
+          "path": "/images/products/shower/shower-33.jpg",
+          "size": 151823,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-34.jpg",
+          "path": "/images/products/shower/shower-34.jpg",
+          "size": 162447,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-35.jpg",
+          "path": "/images/products/shower/shower-35.jpg",
+          "size": 192032,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-36.jpg",
+          "path": "/images/products/shower/shower-36.jpg",
+          "size": 154208,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-37.jpg",
+          "path": "/images/products/shower/shower-37.jpg",
+          "size": 181738,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-38.jpg",
+          "path": "/images/products/shower/shower-38.jpg",
+          "size": 179864,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-39.jpg",
+          "path": "/images/products/shower/shower-39.jpg",
+          "size": 173799,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-40.jpg",
+          "path": "/images/products/shower/shower-40.jpg",
+          "size": 28833,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-41.jpg",
+          "path": "/images/products/shower/shower-41.jpg",
+          "size": 228959,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-42.jpg",
+          "path": "/images/products/shower/shower-42.jpg",
+          "size": 193472,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-43.jpg",
+          "path": "/images/products/shower/shower-43.jpg",
+          "size": 251993,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-44.jpg",
+          "path": "/images/products/shower/shower-44.jpg",
+          "size": 197450,
+          "category": "shower"
+        },
+        {
+          "filename": "shower-45.jpg",
+          "path": "/images/products/shower/shower-45.jpg",
+          "size": 232403,
+          "category": "shower"
+        }
+      ]
+    }
+  }
+}
