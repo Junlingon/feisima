@@ -10,39 +10,39 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Katachi — Design furniture for spaces that breathe.",
-  description: "Architected in Belgium, built to last—timeless pieces.",
+  title: "Viesmar菲斯玛 — 高端卫浴，品质生活",
+  description: "专业卫浴品牌，为您打造舒适优雅的浴室空间",
   generator: "v0.app",
   alternates: {
-    canonical: "https://katachi.example/",
+    canonical: "https://viesmar.example/",
   },
   openGraph: {
-    siteName: "Katachi",
-    title: "Design furniture for spaces that breathe. | Katachi",
-    description: "Architected in Belgium, built to last—timeless pieces.",
+    siteName: "Viesmar菲斯玛",
+    title: "高端卫浴，品质生活 | Viesmar菲斯玛",
+    description: "专业卫浴品牌，为您打造舒适优雅的浴室空间",
     type: "website",
-    url: "https://katachi.example/",
+    url: "https://viesmar.example/",
     images: [
       {
-        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/opengraph-katachi.jpg-7vz2r3hxZA6woukGOmH115Fg7Piyjs.jpeg",
-        alt: "Katachi design furniture — timeless pieces, architected in Belgium",
+        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/opengraph-viesmar.jpg-7vz2r3hxZA6woukGOmH115Fg7Piyjs.jpeg",
+        alt: "Viesmar菲斯玛卫浴 — 高端品质，舒适生活",
         width: 1200,
         height: 630,
       },
     ],
-    locale: "en_BE",
+    locale: "zh_CN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Design furniture for spaces that breathe. | Katachi",
-    description: "Architected in Belgium, built to last—timeless pieces.",
+    title: "高端卫浴，品质生活 | Viesmar菲斯玛",
+    description: "专业卫浴品牌，为您打造舒适优雅的浴室空间",
     images: [
       {
-        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/opengraph-katachi.jpg-7vz2r3hxZA6woukGOmH115Fg7Piyjs.jpeg",
-        alt: "Katachi design furniture — timeless pieces, architected in Belgium",
+        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/opengraph-viesmar.jpg-7vz2r3hxZA6woukGOmH115Fg7Piyjs.jpeg",
+        alt: "Viesmar菲斯玛卫浴 — 高端品质，舒适生活",
       },
     ],
-    site: "@katachi",
+    site: "@viesmar",
   },
 }
 
