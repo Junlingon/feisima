@@ -14,9 +14,24 @@ export function HeroSection() {
     offset: ["start start", "end start"],
   })
 
-  const imageScale = useTransform(scrollYProgress, [0, 1], [1.05, 0.95]) // Reduced hero image shrink from 15% to 5%
-  const imageY = useTransform(scrollYProgress, [0, 1], [0, -50])
-  const contentY = useTransform(scrollYProgress, [0, 1], [0, 100])
+  // 移动端减少视差效果，防止滚动抖动
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768
+  
+  const imageScale = useTransform(
+    scrollYProgress, 
+    [0, 1], 
+    isMobile ? [1.02, 0.98] : [1.05, 0.95]
+  )
+  const imageY = useTransform(
+    scrollYProgress, 
+    [0, 1], 
+    isMobile ? [0, -20] : [0, -50]
+  )
+  const contentY = useTransform(
+    scrollYProgress, 
+    [0, 1], 
+    isMobile ? [0, 50] : [0, 100]
+  )
   const contentOpacity = useTransform(scrollYProgress, [0, 0.5], [1, 0])
 
   const AnimatedText = ({ text, delay = 0 }: { text: string; delay?: number }) => {
@@ -42,7 +57,7 @@ export function HeroSection() {
   }
 
   return (
-    <section ref={containerRef} className="relative h-screen overflow-hidden">
+    <section ref={containerRef} className="relative h-screen overflow-hidden mobile-scroll-fix">
       {/* Background Image with Cinematic Effects */}
       <motion.div
         className="absolute inset-0"

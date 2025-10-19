@@ -1,7 +1,7 @@
 "use client"
 
-import { useRef } from "react"
-import { motion, useScroll, useTransform } from "framer-motion"
+import { useRef, useEffect, useState } from "react"
+import { motion } from "framer-motion"
 import Image from "next/image"
 import { Reveal } from "./reveal"
 
@@ -58,20 +58,49 @@ const collections = [
 
 export function CollectionStrip() {
   const containerRef = useRef<HTMLDivElement>(null)
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ["start end", "end start"],
-  })
-
-  const x = useTransform(scrollYProgress, [0, 1], [0, -100])
+  const [isDragging, setIsDragging] = useState(false)
 
   const itemWidth = 320 // 320px (w-80) + 32px gap = 352px per item
   const totalWidth = collections.length * (itemWidth + 32) - 32 // subtract last gap
   const containerWidth = typeof window !== "undefined" ? window.innerWidth : 1200
   const maxDrag = Math.max(0, totalWidth - containerWidth + 48) // add padding
 
+  // 拖拽时防止页面滚动的温和方式
+  useEffect(() => {
+    const handleTouchMove = (e: TouchEvent) => {
+      if (isDragging) {
+        // 只阻止垂直滚动，允许水平滑动
+        const touch = e.touches[0]
+        const target = e.target as Element
+        
+        // 检查是否在拖拽容器内
+        if (target.closest('.drag-container')) {
+          e.preventDefault()
+        }
+      }
+    }
+
+    const handleWheel = (e: WheelEvent) => {
+      if (isDragging) {
+        e.preventDefault()
+      }
+    }
+
+    if (isDragging) {
+      document.addEventListener('touchmove', handleTouchMove, { passive: false })
+      document.addEventListener('wheel', handleWheel, { passive: false })
+      document.body.style.userSelect = 'none'
+    }
+
+    return () => {
+      document.removeEventListener('touchmove', handleTouchMove)
+      document.removeEventListener('wheel', handleWheel)
+      document.body.style.userSelect = ''
+    }
+  }, [isDragging])
+
   return (
-    <section ref={containerRef} className="py-20 lg:py-32 overflow-hidden">
+    <section ref={containerRef} className="py-20 lg:py-32 overflow-hidden no-scroll-bounce">
       <div className="mb-12">
         <Reveal>
           <div className="container-custom text-center">
@@ -83,13 +112,23 @@ export function CollectionStrip() {
         </Reveal>
       </div>
 
-      <div className="relative">
+      <div className={`relative drag-container ${isDragging ? 'dragging' : ''}`}>
         <motion.div
           className="flex gap-8 px-6"
-          style={{ x }}
+          style={{ 
+            touchAction: 'pan-x pinch-zoom'
+          }}
           drag="x"
           dragConstraints={{ left: -maxDrag, right: 0 }}
           dragElastic={0.1}
+          dragMomentum={false}
+          whileDrag={{ cursor: 'grabbing' }}
+          onDragStart={() => {
+            setIsDragging(true)
+          }}
+          onDragEnd={() => {
+            setIsDragging(false)
+          }}
         >
           {collections.map((collection, index) => (
             <motion.div
