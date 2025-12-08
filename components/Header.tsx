@@ -1,11 +1,16 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import { usePathname } from "next/navigation"
 import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
+  const pathname = usePathname()
+  
+  // 判断是否在详情页（非首页）
+  const isDetailPage = pathname !== "/"
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,8 +25,10 @@ export function Header() {
     <motion.header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        "backdrop-blur-md border-b border-white/[0.02]",
-        isScrolled ? "bg-white/[0.02]" : "bg-white/[0.02]",
+        "backdrop-blur-md border-b",
+        isDetailPage 
+          ? "bg-white/95 border-neutral-200" 
+          : cn("border-white/[0.02]", isScrolled ? "bg-white/[0.02]" : "bg-white/[0.02]"),
       )}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
@@ -32,10 +39,12 @@ export function Header() {
           {/* Logo */}
           <motion.div className="flex-shrink-0" whileHover={{ scale: 1.02 }} transition={{ duration: 0.2 }}>
             <a
-              href="#"
+              href="/"
               className={cn(
                 "text-xl lg:text-2xl font-bold tracking-tight transition-colors",
-                isScrolled ? "text-neutral-900 hover:text-neutral-700" : "text-white hover:text-white/80",
+                isDetailPage 
+                  ? "text-neutral-900 hover:text-neutral-700" 
+                  : (isScrolled ? "text-neutral-900 hover:text-neutral-700" : "text-white hover:text-white/80"),
               )}
               aria-label="VIESMAR 菲斯玛 Home"
             >
