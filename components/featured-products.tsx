@@ -49,7 +49,7 @@ const featuredProducts = [
   },
   {
     id: "3",
-    name: "VIESMAR 智能淋浴系统",
+    name: "VIESMAR 实木浴室柜",
     price: "¥15,675",
     image: "/images/products/shower/shower-10.webp",
     badge: "Limited" as const,
