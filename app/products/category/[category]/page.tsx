@@ -2,6 +2,8 @@
 
 import { notFound } from "next/navigation"
 import { motion } from "framer-motion"
+import Link from "next/link"
+import { ChevronRight, ArrowLeft } from "lucide-react"
 import { Header } from "@/components/Header"
 import { Footer } from "@/components/Footer"
 import { SimpleProductCard } from "@/components/simple-product-card"
@@ -57,39 +59,39 @@ const productsByCategory = {
     products: [
       {
         id: "2",
-        name: "VIESMAR 不锈钢浴室柜",
-        image: "/images/products/stainless/stainless-00.webp",
+        name: "VIESMAR 不锈钢浴室柜1",
+        image: "/images/products/stainless/stainless-prod-0-0.png",
         badge: "Hot" as const,
       },
       {
         id: "5",
-        name: "VIESMAR 不锈钢镜柜",
-        image: "/images/products/stainless/stainless-01.webp",
+        name: "VIESMAR 不锈钢浴室柜2",
+        image: "/images/products/stainless/stainless-prod-1-0.jpg",
         badge: "New" as const,
       },
       {
         id: "8",
-        name: "VIESMAR 不锈钢洗手台",
-        image: "/images/products/stainless/stainless-02.webp",
+        name: "VIESMAR 不锈钢浴室柜3",
+        image: "/images/products/stainless/stainless-prod-2-0.jpg",
         badge: "Limited" as const,
       },
       {
         id: "11",
-        name: "VIESMAR 不锈钢吊柜",
-        image: "/images/products/stainless/stainless-00.webp",
+        name: "VIESMAR 不锈钢浴室柜4",
+        image: "/images/products/stainless/stainless-prod-3-0.jpg",
         badge: "Hot" as const,
       },
       {
         id: "14",
-        name: "VIESMAR 不锈钢置物架",
-        image: "/images/products/stainless/stainless-01.webp",
+        name: "VIESMAR 不锈钢浴室柜5",
+        image: "/images/products/stainless/stainless-prod-4-0.png",
         badge: "New" as const,
       },
       {
         id: "17",
-        name: "VIESMAR 不锈钢毛巾架",
-        image: "/images/products/stainless/stainless-02.webp",
-        badge: "Hot" as const,
+        name: "VIESMAR 不锈钢浴室柜6",
+        image: "/images/products/stainless/stainless-prod-4-1.png",
+        badge: "New" as const,
       },
     ]
   },
@@ -99,39 +101,33 @@ const productsByCategory = {
     products: [
       {
         id: "3",
-        name: "VIESMAR 实木浴室柜",
-        image: "/images/products/shower/shower-10.webp",
+        name: "VIESMAR 实木浴室柜1",
+        image: "/images/products/wood/wood-prod-0-0.jpg",
         badge: "Limited" as const,
       },
       {
         id: "6",
-        name: "VIESMAR 实木镜柜",
-        image: "/images/products/shower/shower-11.webp",
+        name: "VIESMAR 实木浴室柜2",
+        image: "/images/products/wood/wood-prod-1-0.jpg",
         badge: "Hot" as const,
       },
       {
         id: "9",
-        name: "VIESMAR 实木洗手台",
-        image: "/images/products/shower/shower-12.webp",
+        name: "VIESMAR 实木浴室柜3",
+        image: "/images/products/wood/wood-prod-2-0.jpg",
         badge: "New" as const,
       },
       {
         id: "12",
-        name: "VIESMAR 实木吊柜",
-        image: "/images/products/shower/shower-15.webp",
+        name: "VIESMAR 实木浴室柜4",
+        image: "/images/products/wood/wood-prod-3-0.jpg",
         badge: "Limited" as const,
       },
       {
         id: "15",
-        name: "VIESMAR 实木置物架",
-        image: "/images/products/shower/shower-16.webp",
+        name: "VIESMAR 实木浴室柜5",
+        image: "/images/products/wood/wood-prod-4-0.jpg",
         badge: "Hot" as const,
-      },
-      {
-        id: "18",
-        name: "VIESMAR 实木储物柜",
-        image: "/images/products/shower/shower-17.webp",
-        badge: "New" as const,
       },
     ]
   }
@@ -156,6 +152,32 @@ export default function CategoryPage({ params }: CategoryPageProps) {
       
       <section className="py-20 lg:py-32">
         <div className="container-custom">
+          <div className="mb-8 flex items-center justify-between">
+            <nav className="flex items-center text-sm text-neutral-600">
+              <Link 
+                href="/" 
+                className="text-neutral-500 hover:text-neutral-900 transition-colors font-medium"
+              >
+                首页
+              </Link>
+              <ChevronRight className="w-4 h-4 text-neutral-300 mx-2" />
+              {/* <Link 
+                href="/products" 
+                className="text-neutral-500 hover:text-neutral-900 transition-colors font-medium"
+              >
+                产品页
+              </Link> */}
+              {/* <ChevronRight className="w-4 h-4 text-neutral-300 mx-2" /> */}
+              <span className="text-neutral-900 font-semibold">{categoryData.title}</span>
+            </nav>
+            <Link 
+              href="/" 
+              className="flex items-center gap-2 text-sm text-neutral-500 hover:text-neutral-900 transition-all group"
+            >
+              <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+              <span className="font-medium">返回首页</span>
+            </Link>
+          </div>
           <Reveal>
             <div className="text-left mb-16">
               <h1 className="text-4xl text-neutral-900 mb-4 lg:text-6xl">
