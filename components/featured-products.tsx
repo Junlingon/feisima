@@ -10,6 +10,7 @@ const featuredProducts = [
   {
     id: "1",
     name: "VIESMAR 英伦淋浴房",
+    category: "shower",
     price: "¥12,890",
     image: "/images/products/shower/shower-15.webp",
     badge: "New" as const,
@@ -30,6 +31,7 @@ const featuredProducts = [
   {
     id: "2",
     name: "VIESMAR 不锈钢浴室柜",
+    category: "stainless",
     price: "¥8,250",
     image: "/images/products/stainless/stainless-00.webp",
     badge: "Hot" as const,
@@ -50,6 +52,7 @@ const featuredProducts = [
   {
     id: "3",
     name: "VIESMAR 实木浴室柜",
+    category: "wood",
     price: "¥15,675",
     image: "/images/products/shower/shower-10.webp",
     badge: "Limited" as const,

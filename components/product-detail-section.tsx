@@ -121,7 +121,7 @@ export function ProductDetailSection({ product }: ProductDetailSectionProps) {
               </Link>
               <ChevronRight className="w-4 h-4 text-neutral-300 mx-2" />
               <Link 
-                href="/#featured-products" 
+                href="/products" 
                 className="text-neutral-500 hover:text-neutral-900 transition-colors font-medium"
               >
                 产品中心
@@ -361,7 +361,7 @@ export function ProductDetailSection({ product }: ProductDetailSectionProps) {
       </section>
 
       {/* 规格参数 */}
-      <section className="py-20 lg:py-32 bg-white">
+      {/* <section className="py-20 lg:py-32 bg-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -397,7 +397,7 @@ export function ProductDetailSection({ product }: ProductDetailSectionProps) {
             </div>
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* 联系咨询区域 */}
       <section className="py-20 lg:py-32 bg-neutral-900">

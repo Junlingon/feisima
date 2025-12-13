@@ -11,6 +11,7 @@ interface ProductCardProps {
     name: string
     price: string
     image: string
+    category: string
     badge?: "New" | "Back in stock" | "Limited" | "Hot"
     materials: string[]
     swatches: { name: string; color: string }[]
@@ -23,7 +24,7 @@ interface ProductCardProps {
 
 export function ProductCard({ product, onQuickLook }: ProductCardProps) {
   return (
-    <Link href={`/products/${product.id}`}>
+    <Link href={`/products/category/${product.category}`}>
       <motion.div
         className="group relative bg-white overflow-hidden cursor-pointer"
         style={{
