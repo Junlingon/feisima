@@ -25,6 +25,16 @@ interface ProductDetailSectionProps {
   product: Product
 }
 
+// 分类名称到路径的映射
+const getCategoryPath = (category: string): string => {
+  const categoryMap: Record<string, string> = {
+    "淋浴房系列": "shower",
+    "不锈钢浴室柜系列": "stainless", 
+    "实木系列": "wood"
+  }
+  return categoryMap[category] || category
+}
+
 // 产品文案数据
 const productCopywriting: Record<string, { title: string; subtitle: string; content: string }> = {
   "1": {
@@ -121,10 +131,10 @@ export function ProductDetailSection({ product }: ProductDetailSectionProps) {
               </Link>
               <ChevronRight className="w-4 h-4 text-neutral-300 mx-2" />
               <Link 
-                href="/products" 
+                href={`/products/category/${getCategoryPath(product.category)}`} 
                 className="text-neutral-500 hover:text-neutral-900 transition-colors font-medium"
               >
-                产品中心
+                {product.category}
               </Link>
               <ChevronRight className="w-4 h-4 text-neutral-300 mx-2" />
               <span className="text-neutral-900 font-semibold">{product.name}</span>

@@ -41,7 +41,7 @@ const products = [
   },
   {
     id: "2", 
-    name: "VIESMAR 不锈钢浴室柜",
+    name: "VIESMAR 不锈钢浴室柜1",
     price: "¥8,250",
     originalPrice: "¥9,980",
     category: "浴室柜系列",
@@ -62,18 +62,17 @@ const products = [
       "保修期": "3年质保"
     },
     images: [
-      "/images/products/stainless/stainless-00.jpg",
-      "/images/products/stainless/stainless-01.jpg",
-      "/images/products/stainless/stainless-02.jpg",
-      "/images/products/stainless/stainless-03.jpg",
-      "/images/products/stainless/stainless-04.jpg"
+      "/images/products/stainless/stainless-prod-0-0.png",
+      "/images/products/stainless/stainless-prod-0-1.png",
+      "/images/products/stainless/stainless-prod-0-2.jpg",
+      "/images/products/stainless/stainless-prod-0-3.jpg",
     ],
     badge: "Hot",
     materials: ["304食品级不锈钢", "一体陶瓷盆"],
   },
   {
     id: "3",
-    name: "VIESMAR 实木浴室柜", 
+    name: "VIESMAR 实木浴室柜1", 
     price: "¥15,675",
     originalPrice: "¥18,900",
     category: "实木系列",
@@ -94,11 +93,11 @@ const products = [
       "保修期": "2年质保"
     },
     images: [
-      "/images/products/wood/wood-00.jpg",
-      "/images/products/wood/wood-01.jpg",
-      "/images/products/wood/wood-02.jpg",
-      "/images/products/wood/wood-03.jpg",
-      "/images/products/wood/wood-00.jpg"
+      "/images/products/wood/wood-prod-0-0.jpg",
+      "/images/products/wood/wood-prod-0-1.jpg",
+      "/images/products/wood/wood-prod-0-2.jpg",
+      "/images/products/wood/wood-prod-0-3.jpg",
+      "/images/products/wood/wood-prod-0-4.jpg"
     ],
     badge: "Limited",
     materials: ["进口橡木", "人造石台面"],
@@ -267,7 +266,7 @@ const products = [
   // 不锈钢浴室柜系列
   {
     id: "5",
-    name: "VIESMAR 不锈钢镜柜",
+    name: "VIESMAR 不锈钢浴室柜2",
     price: "¥4,980",
     originalPrice: "¥5,980",
     category: "不锈钢浴室柜系列",
@@ -288,18 +287,17 @@ const products = [
       "保修期": "2年质保"
     },
     images: [
-      "/images/products/stainless/stainless-01.webp",
-      "/images/products/stainless/stainless-02.webp", 
-      "/images/products/stainless/stainless-00.webp",
-      "/images/products/stainless/stainless-03.jpg",
-      "/images/products/stainless/stainless-04.jpg"
+      "/images/products/stainless/stainless-prod-1-0.jpg",
+      "/images/products/stainless/stainless-prod-1-1.jpg", 
+      "/images/products/stainless/stainless-prod-1-2.jpg",
+      "/images/products/stainless/stainless-prod-1-3.jpg",
     ],
     badge: "New",
     materials: ["304不锈钢", "防雾镜面"],
   },
   {
     id: "8",
-    name: "VIESMAR 不锈钢洗手台",
+    name: "VIESMAR 不锈钢浴室柜3",
     price: "¥3,680",
     originalPrice: "¥4,380",
     category: "不锈钢浴室柜系列",
@@ -320,18 +318,17 @@ const products = [
       "保修期": "2年质保"
     },
     images: [
-      "/images/products/stainless/stainless-02.webp",
-      "/images/products/stainless/stainless-00.webp", 
-      "/images/products/stainless/stainless-01.webp",
-      "/images/products/stainless/stainless-03.jpg",
-      "/images/products/stainless/stainless-04.jpg"
+      "/images/products/stainless/stainless-prod-2-0.jpg",
+      "/images/products/stainless/stainless-prod-2-1.jpg", 
+      "/images/products/stainless/stainless-prod-2-2.jpg",
+      "/images/products/stainless/stainless-prod-2-3.jpg",
     ],
     badge: "Hot",
     materials: ["304不锈钢", "陶瓷"],
   },
   {
     id: "11",
-    name: "VIESMAR 不锈钢吊柜",
+    name: "VIESMAR 不锈钢浴室柜4",
     price: "¥2,980",
     originalPrice: "¥3,680",
     category: "不锈钢浴室柜系列",
@@ -352,18 +349,17 @@ const products = [
       "保修期": "2年质保"
     },
     images: [
-      "/images/products/stainless/stainless-00.webp",
-      "/images/products/stainless/stainless-01.webp", 
-      "/images/products/stainless/stainless-02.webp",
-      "/images/products/stainless/stainless-03.jpg",
-      "/images/products/stainless/stainless-04.jpg"
+      "/images/products/stainless/stainless-prod-3-0.jpg",
+      "/images/products/stainless/stainless-prod-3-1.jpg", 
+      "/images/products/stainless/stainless-prod-3-2.jpg",
+      "/images/products/stainless/stainless-prod-3-3.jpg",
     ],
     badge: "New",
     materials: ["304不锈钢"],
   },
   {
     id: "14",
-    name: "VIESMAR 不锈钢置物架",
+    name: "VIESMAR 不锈钢浴室柜5",
     price: "¥880",
     originalPrice: "¥1,280",
     category: "不锈钢浴室柜系列",
@@ -384,18 +380,18 @@ const products = [
       "保修期": "1年质保"
     },
     images: [
-      "/images/products/stainless/stainless-01.webp",
-      "/images/products/stainless/stainless-02.webp", 
-      "/images/products/stainless/stainless-00.webp",
-      "/images/products/stainless/stainless-03.jpg",
-      "/images/products/stainless/stainless-04.jpg"
+      "/images/products/stainless/stainless-prod-4-0.png",
+      "/images/products/stainless/stainless-prod-4-1.png", 
+      "/images/products/stainless/stainless-prod-4-2.jpg",
+      "/images/products/stainless/stainless-prod-4-3.jpg",
+      "/images/products/stainless/stainless-prod-4-4.jpg",
     ],
     badge: "Hot",
     materials: ["304不锈钢"],
   },
   {
     id: "17",
-    name: "VIESMAR 不锈钢毛巾架",
+    name: "VIESMAR 不锈钢浴室柜6",
     price: "¥680",
     originalPrice: "¥980",
     category: "不锈钢浴室柜系列",
@@ -416,11 +412,10 @@ const products = [
       "保修期": "1年质保"
     },
     images: [
-      "/images/products/stainless/stainless-02.webp",
-      "/images/products/stainless/stainless-00.webp", 
-      "/images/products/stainless/stainless-01.webp",
-      "/images/products/stainless/stainless-03.jpg",
-      "/images/products/stainless/stainless-04.jpg"
+      "/images/products/stainless/stainless-prod-2-0.jpg",
+      "/images/products/stainless/stainless-prod-2-1.jpg", 
+      "/images/products/stainless/stainless-prod-2-2.jpg",
+      "/images/products/stainless/stainless-prod-2-3.jpg",
     ],
     badge: "New",
     materials: ["304不锈钢"],
@@ -428,7 +423,7 @@ const products = [
   // 实木浴室柜系列
   {
     id: "6",
-    name: "VIESMAR 实木镜柜",
+    name: "VIESMAR 实木浴室柜2",
     price: "¥6,580",
     originalPrice: "¥7,980",
     category: "实木系列",
@@ -449,18 +444,16 @@ const products = [
       "保修期": "2年质保"
     },
     images: [
-      "/images/products/shower/shower-11.webp",
-      "/images/products/shower/shower-12.webp", 
-      "/images/products/shower/shower-15.webp",
-      "/images/products/wood/wood-01.jpg",
-      "/images/products/wood/wood-02.jpg"
+      "/images/products/wood/wood-prod-1-0.jpg",
+      "/images/products/wood/wood-prod-1-1.jpg", 
+      "/images/products/wood/wood-prod-1-2.jpg",
     ],
     badge: "New",
     materials: ["进口橡木", "防雾镜面"],
   },
   {
     id: "9",
-    name: "VIESMAR 实木洗手台",
+    name: "VIESMAR 实木浴室柜3",
     price: "¥5,880",
     originalPrice: "¥7,180",
     category: "实木系列",
@@ -481,18 +474,16 @@ const products = [
       "保修期": "2年质保"
     },
     images: [
-      "/images/products/shower/shower-12.webp",
-      "/images/products/shower/shower-15.webp", 
-      "/images/products/shower/shower-16.webp",
-      "/images/products/wood/wood-02.jpg",
-      "/images/products/wood/wood-03.jpg"
+      "/images/products/wood/wood-prod-2-0.jpg",
+      "/images/products/wood/wood-prod-2-1.jpg", 
+      "/images/products/wood/wood-prod-2-2.jpg",
     ],
     badge: "Hot",
     materials: ["进口橡木", "陶瓷"],
   },
   {
     id: "12",
-    name: "VIESMAR 实木吊柜",
+    name: "VIESMAR 实木浴室柜4",
     price: "¥3,980",
     originalPrice: "¥4,780",
     category: "实木系列",
@@ -513,18 +504,17 @@ const products = [
       "保修期": "2年质保"
     },
     images: [
-      "/images/products/shower/shower-15.webp",
-      "/images/products/shower/shower-16.webp", 
-      "/images/products/shower/shower-17.webp",
-      "/images/products/wood/wood-03.jpg",
-      "/images/products/wood/wood-00.jpg"
+      "/images/products/wood/wood-prod-3-0.jpg",
+      "/images/products/wood/wood-prod-3-1.jpg", 
+      "/images/products/wood/wood-prod-3-2.jpg",
+      "/images/products/wood/wood-prod-3-3.jpg",
     ],
     badge: "Limited",
     materials: ["进口橡木"],
   },
   {
     id: "15",
-    name: "VIESMAR 实木置物架",
+    name: "VIESMAR 实木浴室柜5",
     price: "¥1,280",
     originalPrice: "¥1,680",
     category: "实木系列",
@@ -545,47 +535,14 @@ const products = [
       "保修期": "1年质保"
     },
     images: [
-      "/images/products/shower/shower-16.webp",
-      "/images/products/shower/shower-17.webp", 
-      "/images/products/shower/shower-10.webp",
-      "/images/products/wood/wood-00.jpg",
-      "/images/products/wood/wood-01.jpg"
+       "/images/products/wood/wood-prod-4-0.jpg",
+      "/images/products/wood/wood-prod-4-1.jpg", 
+      "/images/products/wood/wood-prod-4-2.jpg",
     ],
     badge: "Hot",
     materials: ["进口橡木"],
   },
-  {
-    id: "18",
-    name: "VIESMAR 实木储物柜",
-    price: "¥7,280",
-    originalPrice: "¥8,680",
-    category: "实木系列",
-    description: "大容量实木储物柜，分类储物设计。防潮防霉，适合存放各种浴室用品。",
-    longDescription: "VIESMAR实木储物柜系列，大容量设计，满足各种储物需求。内部分区设计，便于物品分类。进口橡木材质，经过多道防潮防霉处理。静音阻尼铰链，开合无声。底部可调节脚垫，适应不平地面。",
-    features: [
-      "大容量设计",
-      "内部分区储物",
-      "静音阻尼铰链",
-      "可调节脚垫",
-      "防潮防霉处理"
-    ],
-    specifications: {
-      "尺寸": "W: 80cm × D: 40cm × H: 90cm",
-      "材质": "进口橡木",
-      "储物": "多隔板分区",
-      "表面处理": "环保清漆",
-      "保修期": "2年质保"
-    },
-    images: [
-      "/images/products/shower/shower-17.webp",
-      "/images/products/shower/shower-10.webp", 
-      "/images/products/shower/shower-11.webp",
-      "/images/products/wood/wood-01.jpg",
-      "/images/products/wood/wood-02.jpg"
-    ],
-    badge: "New",
-    materials: ["进口橡木"],
-  }
+ 
 ]
 
 interface ProductPageProps {
