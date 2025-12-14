@@ -39,13 +39,13 @@ const collections = [
   {
     id: "classic-elegance",
     name: "经典优雅系列",
-    image: "/images/products/stainless/stainless-40.webp",
+    image: "/images/products/stainless/stainless-25.webp",
     count: "9 件产品",
   },
   {
     id: "contemporary-style",
     name: "当代风格系列",
-    image: "/images/products/shower/shower-40.webp",
+    image: "/images/products/shower/shower-30.webp",
     count: "11 件产品",
   },
   {

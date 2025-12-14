@@ -18,37 +18,37 @@ const productsByCategory = {
       {
         id: "1",
         name: "VIESMAR 英伦淋浴房",
-        image: "/images/products/shower/shower-15.webp",
+        image: "/images/products/shower/shower-prod-0-0.jpg",
         badge: "New" as const,
       },
       {
         id: "4",
         name: "VIESMAR 简约淋浴房",
-        image: "/images/products/shower/shower-16.webp",
+        image: "/images/products/shower/shower-prod-1-0.jpg",
         badge: "Hot" as const,
       },
       {
         id: "7",
         name: "VIESMAT 推拉淋浴房",
-        image: "/images/products/shower/shower-17.webp",
+        image: "/images/products/shower/shower-prod-2-0.jpg",
         badge: "Limited" as const,
       },
       {
         id: "10",
         name: "VIESMAR 智能淋浴房",
-        image: "/images/products/shower/shower-10.webp",
+        image: "/images/products/shower/shower-prod-3-0.jpg",
         badge: "New" as const,
       },
       {
         id: "13",
         name: "VIESMAR 方形淋浴房",
-        image: "/images/products/shower/shower-11.webp",
+        image: "/images/products/shower/shower-prod-4-0.jpg",
         badge: "Hot" as const,
       },
       {
         id: "16",
         name: "VIESMAR 弧形淋浴房",
-        image: "/images/products/shower/shower-12.webp",
+        image: "/images/products/shower/shower-prod-5-0.jpg",
         badge: "New" as const,
       },
     ]

@@ -12,7 +12,7 @@ const featuredProducts = [
     name: "VIESMAR 英伦淋浴房",
     category: "shower",
     price: "¥12,890",
-    image: "/images/products/shower/shower-15.webp",
+    image: "/images/products/shower/shower-prod-0-0.jpg",
     badge: "New" as const,
     materials: ["安全钢化玻璃", "304不锈钢框架"],
     swatches: [
@@ -21,9 +21,9 @@ const featuredProducts = [
       { name: "拉丝不锈钢", color: "#C0C0C0" },
     ],
     quickLookImages: [
-      "/images/products/shower/shower-15.webp",
-      "/images/products/shower/shower-16.webp",
-      "/images/products/shower/shower-17.webp",
+      "/images/products/shower/shower-prod-0-0.jpg",
+      "/images/products/shower/shower-prod-0-1.jpg",
+      "/images/products/shower/shower-prod-0-2.jpg",
     ],
     dimensions: "W: 120cm × D: 90cm × H: 200cm",
     hidePrice: true,
