@@ -11,7 +11,7 @@ const allProducts = [
   {
     id: "1",
     name: "VIESMAR 英伦淋浴房",
-    image: "/images/products/shower/shower-15.webp",
+    image: "/images/products/shower/shower-prod-0-0.jpg",
     badge: "New" as const,
   },
   {
@@ -23,13 +23,13 @@ const allProducts = [
   {
     id: "3",
     name: "VIESMAR 实木浴室柜",
-    image: "/images/products/shower/shower-10.webp",
+    image: "/images/products/shower/shower-prod-1-0.jpg",
     badge: "Limited" as const,
   },
   {
     id: "4",
     name: "VIESMAR 智能马桶",
-    image: "/images/products/shower/shower-11.webp",
+    image: "/images/products/shower/shower-prod-2-0.jpg",
     badge: "New" as const,
   },
   {
@@ -41,13 +41,13 @@ const allProducts = [
   {
     id: "6",
     name: "VIESMAR 浴室镜柜",
-    image: "/images/products/shower/shower-12.webp",
+    image: "/images/products/shower/shower-prod-3-0.jpg",
     badge: "New" as const,
   },
   {
     id: "7",
     name: "VIESMAR 浴缸",
-    image: "/images/products/shower/shower-16.webp",
+    image: "/images/products/shower/shower-prod-4-0.jpg",
     badge: "Limited" as const,
   },
   {
@@ -59,7 +59,7 @@ const allProducts = [
   {
     id: "9",
     name: "VIESMAR 浴室配件",
-    image: "/images/products/shower/shower-17.webp",
+    image: "/images/products/shower/shower-prod-5-0.jpg",
     badge: "New" as const,
   },
 ]

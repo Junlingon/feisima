@@ -30,11 +30,10 @@ const products = [
       "保修期": "5年质保"
     },
     images: [
-      "/images/products/shower/shower-00.jpg",
-      "/images/products/shower/shower-01.jpg", 
-      "/images/products/shower/shower-02.jpg",
-      "/images/products/shower/shower-03.jpg",
-      "/images/products/shower/shower-04.jpg"
+      "/images/products/shower/shower-prod-0-0.jpg",
+      "/images/products/shower/shower-prod-0-1.jpg", 
+      "/images/products/shower/shower-prod-0-2.jpg",
+      "/images/products/shower/shower-prod-0-3.jpg",
     ],
     badge: "New",
     materials: ["安全钢化玻璃", "304不锈钢框架"],
@@ -126,11 +125,8 @@ const products = [
       "保修期": "3年质保"
     },
     images: [
-      "/images/products/shower/shower-15.webp",
-      "/images/products/shower/shower-16.webp", 
-      "/images/products/shower/shower-17.webp",
-      "/images/products/shower/shower-10.webp",
-      "/images/products/shower/shower-11.webp"
+      "/images/products/shower/shower-prod-1-0.jpg",
+      "/images/products/shower/shower-prod-1-1.jpg", 
     ],
     badge: "Hot",
     materials: ["10mm钢化玻璃", "铝合金框架"],
@@ -158,11 +154,8 @@ const products = [
       "保修期": "3年质保"
     },
     images: [
-      "/images/products/shower/shower-17.webp",
-      "/images/products/shower/shower-15.webp", 
-      "/images/products/shower/shower-16.webp",
-      "/images/products/shower/shower-10.webp",
-      "/images/products/shower/shower-12.webp"
+           "/images/products/shower/shower-prod-2-0.jpg",
+      "/images/products/shower/shower-prod-2-1.jpg",
     ],
     badge: "Limited",
     materials: ["8mm钢化玻璃", "304不锈钢"],
@@ -190,11 +183,9 @@ const products = [
       "保修期": "2年质保"
     },
     images: [
-      "/images/products/shower/shower-10.webp",
-      "/images/products/shower/shower-11.webp", 
-      "/images/products/shower/shower-12.webp",
-      "/images/products/shower/shower-15.webp",
-      "/images/products/shower/shower-16.webp"
+       "/images/products/shower/shower-prod-3-0.jpg",
+      "/images/products/shower/shower-prod-3-1.jpg", 
+      "/images/products/shower/shower-prod-3-2.jpg",
     ],
     badge: "New",
     materials: ["防爆钢化玻璃", "铝合金"],
@@ -222,11 +213,9 @@ const products = [
       "保修期": "3年质保"
     },
     images: [
-      "/images/products/shower/shower-11.webp",
-      "/images/products/shower/shower-12.webp", 
-      "/images/products/shower/shower-15.webp",
-      "/images/products/shower/shower-16.webp",
-      "/images/products/shower/shower-17.webp"
+            "/images/products/shower/shower-prod-4-0.jpg",
+      "/images/products/shower/shower-prod-4-1.jpg", 
+      "/images/products/shower/shower-prod-4-2.jpg",
     ],
     badge: "Hot",
     materials: ["8mm钢化玻璃"],
@@ -254,11 +243,8 @@ const products = [
       "保修期": "3年质保"
     },
     images: [
-      "/images/products/shower/shower-12.webp",
-      "/images/products/shower/shower-15.webp", 
-      "/images/products/shower/shower-16.webp",
-      "/images/products/shower/shower-17.webp",
-      "/images/products/shower/shower-10.webp"
+      "/images/products/shower/shower-prod-5-0.jpg",
+      "/images/products/shower/shower-prod-5-1.jpg", 
     ],
     badge: "New",
     materials: ["8mm钢化玻璃", "304不锈钢"],
