@@ -8,33 +8,12 @@ import { Reveal } from "./reveal"
 
 const featuredProducts = [
   {
-    id: "1",
-    name: "VIESMAR 英伦淋浴房",
-    category: "shower",
-    price: "¥12,890",
-    image: "/images/products/shower/shower-prod-0-0.jpg",
-    badge: "New" as const,
-    materials: ["安全钢化玻璃", "304不锈钢框架"],
-    swatches: [
-      { name: "超白玻璃", color: "#F8F8FF" },
-      { name: "磨砂玻璃", color: "#E6E6FA" },
-      { name: "拉丝不锈钢", color: "#C0C0C0" },
-    ],
-    quickLookImages: [
-      "/images/products/shower/shower-prod-0-0.jpg",
-      "/images/products/shower/shower-prod-0-1.jpg",
-      "/images/products/shower/shower-prod-0-2.jpg",
-    ],
-    dimensions: "W: 120cm × D: 90cm × H: 200cm",
-    hidePrice: true,
-  },
-  {
     id: "2",
-    name: "VIESMAR 不锈钢浴室柜1",
+    name: "VIESMAR 304不锈钢浴室柜",
     category: "stainless",
     price: "¥8,250",
     image: "/images/products/stainless/stainless-prod-0-0.png",
-    badge: "Hot" as const,
+    badge: "New" as const,
     materials: ["304食品级不锈钢", "一体陶瓷盆"],
     swatches: [
       { name: "拉丝银", color: "#C0C0C0" },
@@ -51,11 +30,11 @@ const featuredProducts = [
   },
   {
     id: "3",
-    name: "VIESMAR 实木浴室柜1",
+    name: "VIESMAR 实木浴室柜",
     category: "wood",
     price: "¥15,675",
     image: "/images/products/wood/wood-prod-0-0.jpg",
-    badge: "Limited" as const,
+    badge: "Hot" as const,
     materials: ["精铜花洒头", "德国恒温阀芯"],
     swatches: [
       { name: "香槟金", color: "#F7E7CE" },
@@ -68,6 +47,27 @@ const featuredProducts = [
       "/images/products/wood/wood-prod-0-2.jpg",
     ],
     dimensions: "W: 25cm × D: 25cm × H: 40cm",
+    hidePrice: true,
+  },
+  {
+    id: "1",
+    name: "VIESMAR 304不锈钢淋浴房",
+    category: "shower",
+    price: "¥12,890",
+    image: "/images/products/shower/shower-prod-0-0.jpg",
+    badge: "Limited" as const,
+    materials: ["安全钢化玻璃", "304不锈钢框架"],
+    swatches: [
+      { name: "超白玻璃", color: "#F8F8FF" },
+      { name: "磨砂玻璃", color: "#E6E6FA" },
+      { name: "拉丝不锈钢", color: "#C0C0C0" },
+    ],
+    quickLookImages: [
+      "/images/products/shower/shower-prod-0-0.jpg",
+      "/images/products/shower/shower-prod-0-1.jpg",
+      "/images/products/shower/shower-prod-0-2.jpg",
+    ],
+    dimensions: "W: 120cm × D: 90cm × H: 200cm",
     hidePrice: true,
   },
 ]
