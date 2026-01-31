@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { usePathname } from "next/navigation"
 import { motion } from "framer-motion"
+import Image from "next/image"
 import { cn } from "@/lib/utils"
 
 export function Header() {
@@ -40,15 +41,22 @@ export function Header() {
           <motion.div className="flex-shrink-0" whileHover={{ scale: 1.02 }} transition={{ duration: 0.2 }}>
             <a
               href="/"
-              className={cn(
-                "text-xl lg:text-2xl font-bold tracking-tight transition-colors",
-                isDetailPage 
-                  ? "text-neutral-900 hover:text-neutral-700" 
-                  : (isScrolled ? "text-neutral-900 hover:text-neutral-700" : "text-white hover:text-white/80"),
-              )}
+              className="block"
               aria-label="VIESMAR 菲斯玛 Home"
             >
-              VIESMAR 菲斯玛
+              <Image
+                src="/images/logo.png"
+                alt="VIESMAR 菲斯玛"
+                width={320}
+                height={70}
+                className={cn(
+                  "h-14 lg:h-16 w-auto transition-all",
+                  isDetailPage 
+                    ? "" 
+                    : (isScrolled ? "" : "brightness-0 invert"),
+                )}
+                priority
+              />
             </a>
           </motion.div>
         </div>
