@@ -40,10 +40,10 @@ const products = [
   },
   {
     id: "2", 
-    name: "VIESMAR 不锈钢浴室柜1",
+    name: "VIESMAR 幻思",
     price: "¥8,250",
     originalPrice: "¥9,980",
-    category: "浴室柜系列",
+    category: "不锈钢浴室柜系列",
     description: "采用304食品级不锈钢材质，一体成型工艺，搭配高品质陶瓷盆。防水防潮，经久耐用，是现代家庭的理想选择。",
     longDescription: "VIESMAR不锈钢浴室柜系列，采用食品级304不锈钢材质，通过SGS认证，安全环保无甲醛。一体成型工艺确保产品的整体性和耐用性，搭配高品质陶瓷盆，易清洁不变色。多层收纳设计，充分利用空间，让您的浴室整洁有序。",
     features: [
@@ -252,7 +252,7 @@ const products = [
   // 不锈钢浴室柜系列
   {
     id: "5",
-    name: "VIESMAR 不锈钢浴室柜2",
+    name: "VIESMAR 艾米丽",
     price: "¥4,980",
     originalPrice: "¥5,980",
     category: "不锈钢浴室柜系列",
@@ -283,7 +283,7 @@ const products = [
   },
   {
     id: "8",
-    name: "VIESMAR 不锈钢浴室柜3",
+    name: "VIESMAR 纳境",
     price: "¥3,680",
     originalPrice: "¥4,380",
     category: "不锈钢浴室柜系列",
@@ -314,7 +314,7 @@ const products = [
   },
   {
     id: "11",
-    name: "VIESMAR 不锈钢浴室柜4",
+    name: "VIESMAR 玛丽",
     price: "¥2,980",
     originalPrice: "¥3,680",
     category: "不锈钢浴室柜系列",
@@ -345,7 +345,7 @@ const products = [
   },
   {
     id: "14",
-    name: "VIESMAR 不锈钢浴室柜5",
+    name: "VIESMAR 奥利弗",
     price: "¥880",
     originalPrice: "¥1,280",
     category: "不锈钢浴室柜系列",
@@ -377,7 +377,7 @@ const products = [
   },
   {
     id: "17",
-    name: "VIESMAR 不锈钢浴室柜6",
+    name: "VIESMAR 杰西卡",
     price: "¥680",
     originalPrice: "¥980",
     category: "不锈钢浴室柜系列",
@@ -398,10 +398,10 @@ const products = [
       "保修期": "1年质保"
     },
     images: [
-      "/images/products/stainless/stainless-prod-2-0.jpg",
-      "/images/products/stainless/stainless-prod-2-1.jpg", 
-      "/images/products/stainless/stainless-prod-2-2.jpg",
-      "/images/products/stainless/stainless-prod-2-3.jpg",
+      "/images/products/stainless/stainless-prod-5-0.png",
+      "/images/products/stainless/stainless-prod-5-1.png", 
+      "/images/products/stainless/stainless-prod-5-2.png",
+      "/images/products/stainless/stainless-prod-5-3.png",
     ],
     badge: "New",
     materials: ["304不锈钢"],

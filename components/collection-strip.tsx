@@ -65,42 +65,31 @@ export function CollectionStrip() {
   const containerWidth = typeof window !== "undefined" ? window.innerWidth : 1200
   const maxDrag = Math.max(0, totalWidth - containerWidth + 48) // add padding
 
-  // 拖拽时防止页面滚动的温和方式
+  // 拖拽结束后确保状态重置
   useEffect(() => {
-    const handleTouchMove = (e: TouchEvent) => {
-      if (isDragging) {
-        // 只阻止垂直滚动，允许水平滑动
-        const touch = e.touches[0]
-        const target = e.target as Element
-        
-        // 检查是否在拖拽容器内
-        if (target.closest('.drag-container')) {
-          e.preventDefault()
-        }
-      }
-    }
-
-    const handleWheel = (e: WheelEvent) => {
-      if (isDragging) {
-        e.preventDefault()
-      }
-    }
-
     if (isDragging) {
-      document.addEventListener('touchmove', handleTouchMove, { passive: false })
-      document.addEventListener('wheel', handleWheel, { passive: false })
       document.body.style.userSelect = 'none'
     }
-
     return () => {
-      document.removeEventListener('touchmove', handleTouchMove)
-      document.removeEventListener('wheel', handleWheel)
       document.body.style.userSelect = ''
     }
   }, [isDragging])
 
+  // 安全重置：鼠标/触摸离开窗口时也要重置拖拽状态
+  useEffect(() => {
+    const handlePointerUp = () => {
+      if (isDragging) setIsDragging(false)
+    }
+    window.addEventListener('pointerup', handlePointerUp)
+    window.addEventListener('pointercancel', handlePointerUp)
+    return () => {
+      window.removeEventListener('pointerup', handlePointerUp)
+      window.removeEventListener('pointercancel', handlePointerUp)
+    }
+  }, [isDragging])
+
   return (
-    <section ref={containerRef} className="py-20 lg:py-32 overflow-hidden no-scroll-bounce">
+    <section ref={containerRef} className="py-20 lg:py-32 overflow-hidden">
       <div className="mb-12">
         <Reveal>
           <div className="container-custom text-center">
@@ -116,7 +105,7 @@ export function CollectionStrip() {
         <motion.div
           className="flex gap-8 px-6"
           style={{ 
-            touchAction: 'pan-x pinch-zoom'
+            touchAction: 'pan-y'
           }}
           drag="x"
           dragConstraints={{ left: -maxDrag, right: 0 }}

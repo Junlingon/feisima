@@ -175,10 +175,6 @@
     scroll-behavior: smooth;
     /* 移动端滚动优化 */
     -webkit-overflow-scrolling: touch;
-    overscroll-behavior: contain;
-    /* 防止滚动抖动 */
-    transform: translateZ(0);
-    backface-visibility: hidden;
   }
 
   /* 移动端触摸优化 */
@@ -189,7 +185,6 @@
 
   /* 拖拽容器优化 */
   .drag-container {
-    touch-action: pan-x;
     overscroll-behavior: contain;
   }
 
@@ -271,12 +266,9 @@
   /* 移动端滚动和拖拽优化 */
   .mobile-scroll-fix {
     -webkit-overflow-scrolling: touch;
-    overscroll-behavior-y: contain;
-    scroll-snap-type: y proximity;
   }
 
   .drag-container {
-    touch-action: pan-x;
     -webkit-user-select: none;
     user-select: none;
   }
@@ -289,8 +281,6 @@
   /* 移动端专用样式 */
   @media (max-width: 768px) {
     body {
-      /* 防止移动端页面抖动 */
-      position: relative;
       overflow-x: hidden;
     }
     
@@ -312,16 +302,14 @@
 
     /* 拖拽时的额外优化 */
     .dragging {
-      touch-action: pan-x;
-      overscroll-behavior: none;
+      touch-action: pan-y;
     }
   }
 
-  /* 防止iOS Safari的弹性滚动 */
+  /* iOS Safari滚动优化 */
   @supports (-webkit-overflow-scrolling: touch) {
     body {
       -webkit-overflow-scrolling: touch;
-      overscroll-behavior: contain;
     }
   }
 }

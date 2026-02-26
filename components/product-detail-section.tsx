@@ -46,15 +46,6 @@ const productCopywriting: Record<string, { title: string; subtitle: string; cont
 
 防水胶条采用进口硅胶材质，密封性能卓越，滴水不漏。支持尺寸定制，无论您的浴室空间大小，都能找到最适合的解决方案。英伦淋浴房，让每一次沐浴都成为一场优雅的仪式。`
   },
-  "2": {
-    title: "工业美学",
-    subtitle: "金属质感的极致表达",
-    content: `VIESMAR不锈钢浴室柜系列，以现代工业美学为设计灵感，将冷峻的金属质感与温暖的居家氛围完美融合。采用食品级304不锈钢材质，通过SGS国际认证，安全环保无甲醛，为您和家人的健康保驾护航。
-
-一体成型工艺确保产品的整体性和耐用性，无缝隙设计杜绝藏污纳垢。搭配高品质陶瓷盆，釉面光滑细腻，易清洁不变色，历久弥新。多层收纳设计充分利用空间，静音导轨让开合无声，细节之处彰显品质。
-
-防水LED镜前灯采用高显色指数光源，还原真实肤色，让您在最佳光线下开启美好的一天。不锈钢浴室柜，以金属的坚韧守护您的精致生活。`
-  },
   "3": {
     title: "自然臻品",
     subtitle: "天然木纹的独特韵味",
@@ -64,6 +55,46 @@ const productCopywriting: Record<string, { title: string; subtitle: string; cont
 
 德国进口铰链，承重力强，开合流畅。人造石台面，纹理细腻，触感温润。专业安装服务，让您安心无忧。实木浴室柜，将大自然的馈赠带入您的生活空间，感受木质带来的温暖与宁静。`
   }
+}
+
+// 不锈钢浴室柜产品参数
+const productParams: Record<string, { label: string; value: string }[]> = {
+  "2": [
+    { label: "颜色", value: "意大利金+镭射哑光" },
+    { label: "台面", value: "喷砂意大利金" },
+    { label: "镜子", value: "光镜+亚克力发光" },
+    { label: "台盆", value: "可丽耐浇筑盆" },
+  ],
+  "5": [
+    { label: "颜色", value: "经典绿+电镀缎纹古铜金" },
+    { label: "台面", value: "普拉达绿大理石" },
+    { label: "镜子", value: "缎纹古铜金" },
+    { label: "台盆", value: "无缝台下盆" },
+  ],
+  "8": [
+    { label: "颜色", value: "复古金+肤感哑黑" },
+    { label: "台面", value: "喷砂太空黑" },
+    { label: "镜子", value: "拉丝玫瑰金(褐色)" },
+    { label: "台盆", value: "玻璃台下盆" },
+  ],
+  "11": [
+    { label: "颜色", value: "紫红+电镀拉丝褐色" },
+    { label: "台面", value: "布加迪金大理石" },
+    { label: "镜子", value: "拉丝电镀褐色" },
+    { label: "台盆", value: "无缝玻璃台下盆" },
+  ],
+  "14": [
+    { label: "颜色", value: "奶油白+古铜金" },
+    { label: "台面", value: "奶油白" },
+    { label: "镜子", value: "奶油白+缎纹古铜金" },
+    { label: "台盆", value: "无缝台下盆" },
+  ],
+  "17": [
+    { label: "颜色", value: "栗棕色+太空灰" },
+    { label: "台面", value: "古亚灰大理石" },
+    { label: "镜子", value: "水晶冰花亚克力" },
+    { label: "台盆", value: "无缝台下盆" },
+  ],
 }
 
 export function ProductDetailSection({ product }: ProductDetailSectionProps) {
@@ -76,6 +107,9 @@ export function ProductDetailSection({ product }: ProductDetailSectionProps) {
     subtitle: "精工细作的卓越之选",
     content: product.longDescription
   }
+
+  // 获取产品参数（不锈钢浴室柜系列）
+  const params = productParams[product.id]
 
   // 自动轮播 - 顶部大图
   useEffect(() => {
@@ -246,7 +280,7 @@ export function ProductDetailSection({ product }: ProductDetailSectionProps) {
       <section className="py-20 lg:py-32 bg-neutral-50">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            {/* 左侧：文字介绍 */}
+            {/* 左侧：文字介绍或产品参数 */}
             <motion.div 
               className="space-y-8 order-2 lg:order-1"
               initial={{ opacity: 0, x: -30 }}
@@ -254,21 +288,49 @@ export function ProductDetailSection({ product }: ProductDetailSectionProps) {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <div>
-                <span className="text-sm text-neutral-500 uppercase tracking-[0.15em] mb-3 block">
-                  {copywriting.subtitle}
-                </span>
-                <h2 className="text-3xl lg:text-5xl font-bold text-neutral-900 mb-8">
-                  {copywriting.title}
-                </h2>
-                <div className="prose prose-lg prose-neutral max-w-none">
-                  {copywriting.content.split('\n\n').map((paragraph, index) => (
-                    <p key={index} className="text-neutral-600 leading-relaxed mb-6 last:mb-0">
-                      {paragraph}
-                    </p>
-                  ))}
+              {params ? (
+                /* 产品参数模式 */
+                <div>
+                  <span className="text-sm text-neutral-500 uppercase tracking-[0.15em] mb-3 block">
+                    Product Specifications
+                  </span>
+                  <h2 className="text-3xl lg:text-5xl font-bold text-neutral-900 mb-10">
+                    产品参数
+                  </h2>
+                  <dl className="divide-y divide-neutral-200">
+                    {params.map((param, index) => (
+                      <motion.div
+                        key={param.label}
+                        className="flex justify-between items-center py-5"
+                        initial={{ opacity: 0, y: 10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.3, delay: index * 0.08 }}
+                      >
+                        <dt className="text-neutral-500 font-medium text-base">{param.label}</dt>
+                        <dd className="text-neutral-900 font-semibold text-base">{param.value}</dd>
+                      </motion.div>
+                    ))}
+                  </dl>
                 </div>
-              </div>
+              ) : (
+                /* 文案模式 */
+                <div>
+                  <span className="text-sm text-neutral-500 uppercase tracking-[0.15em] mb-3 block">
+                    {copywriting.subtitle}
+                  </span>
+                  <h2 className="text-3xl lg:text-5xl font-bold text-neutral-900 mb-8">
+                    {copywriting.title}
+                  </h2>
+                  <div className="prose prose-lg prose-neutral max-w-none">
+                    {copywriting.content.split('\n\n').map((paragraph, index) => (
+                      <p key={index} className="text-neutral-600 leading-relaxed mb-6 last:mb-0">
+                        {paragraph}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* 产品特点列表 */}
               <div className="pt-8 border-t border-neutral-200">
