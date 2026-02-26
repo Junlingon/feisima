@@ -59,38 +59,38 @@ const productsByCategory = {
     products: [
       {
         id: "2",
-        name: "VIESMAR 不锈钢浴室柜1",
+        name: "VIESMAR 幻思",
         image: "/images/products/stainless/stainless-prod-0-0.png",
         badge: "Hot" as const,
       },
       {
         id: "5",
-        name: "VIESMAR 不锈钢浴室柜2",
+        name: "VIESMAR 艾米丽",
         image: "/images/products/stainless/stainless-prod-1-0.jpg",
         badge: "New" as const,
       },
       {
         id: "8",
-        name: "VIESMAR 不锈钢浴室柜3",
+        name: "VIESMAR 纳境",
         image: "/images/products/stainless/stainless-prod-2-0.jpg",
         badge: "Limited" as const,
       },
       {
         id: "11",
-        name: "VIESMAR 不锈钢浴室柜4",
+        name: "VIESMAR 玛丽",
         image: "/images/products/stainless/stainless-prod-3-0.jpg",
         badge: "Hot" as const,
       },
       {
         id: "14",
-        name: "VIESMAR 不锈钢浴室柜5",
+        name: "VIESMAR 奥利弗",
         image: "/images/products/stainless/stainless-prod-4-0.png",
         badge: "New" as const,
       },
       {
         id: "17",
-        name: "VIESMAR 不锈钢浴室柜6",
-        image: "/images/products/stainless/stainless-prod-4-1.png",
+        name: "VIESMAR 杰西卡",
+        image: "/images/products/stainless/stainless-prod-5-0.png",
         badge: "New" as const,
       },
     ]
