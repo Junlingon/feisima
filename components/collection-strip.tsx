@@ -3,56 +3,44 @@
 import { useRef, useEffect, useState } from "react"
 import { motion } from "framer-motion"
 import Image from "next/image"
+import Link from "next/link"
 import { Reveal } from "./reveal"
 
 const collections = [
   {
-    id: "luxury-shower",
-    name: "豪华淋浴系列",
-    image: "/images/products/shower/shower-00.webp",
-    count: "12 件产品",
+    id: "stainless",
+    name: "不锈钢浴室柜系列",
+    image: "/images/series/stainless/stainless-series-01.webp",
+    count: "11 款产品展示",
+    href: "/products/series/stainless",
   },
   {
-    id: "modern-stainless",
-    name: "现代不锈钢系列",
-    image: "/images/products/stainless/stainless-00.webp",
-    count: "15 件产品",
+    id: "wood",
+    name: "实木浴室柜系列",
+    image: "/images/series/wood/wood-series-02.webp",
+    count: "15 款产品展示",
+    href: "/products/series/wood",
   },
   {
-    id: "minimalist-design",
-    name: "简约设计系列",
-    image: "/images/products/shower/shower-10.webp",
-    count: "8 件产品",
+    id: "shower",
+    name: "不锈钢淋浴房系列",
+    image: "/images/series/shower/shower-series-01.webp",
+    count: "10 款产品展示",
+    href: "/products/series/shower",
   },
   {
-    id: "premium-fixtures",
-    name: "高端五金系列",
-    image: "/images/products/stainless/stainless-20.webp",
-    count: "10 件产品",
+    id: "faucet-shower",
+    name: "淋浴花洒系列",
+    image: "/images/series/shower/shower-series-05.webp",
+    count: "敬请期待",
+    href: "#",
   },
   {
-    id: "smart-bathroom",
-    name: "智能卫浴系列",
-    image: "/images/products/shower/shower-30.webp",
-    count: "6 件产品",
-  },
-  {
-    id: "classic-elegance",
-    name: "经典优雅系列",
-    image: "/images/products/stainless/stainless-25.webp",
-    count: "9 件产品",
-  },
-  {
-    id: "contemporary-style",
-    name: "当代风格系列",
-    image: "/images/products/shower/shower-30.webp",
-    count: "11 件产品",
-  },
-  {
-    id: "professional-grade",
-    name: "专业级系列",
-    image: "/images/products/stainless/stainless-60.webp",
-    count: "7 件产品",
+    id: "basin-faucet",
+    name: "面盆龙头系列",
+    image: "/images/series/stainless/stainless-series-06.webp",
+    count: "敬请期待",
+    href: "#",
   },
 ]
 
@@ -119,41 +107,47 @@ export function CollectionStrip() {
             setIsDragging(false)
           }}
         >
-          {collections.map((collection, index) => (
+          {collections.map((collection) => (
             <motion.div
               key={collection.id}
               className="flex-shrink-0 w-80 group cursor-pointer"
               whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.3, ease: [0.21, 0.47, 0.32, 0.98] }}
             >
-              <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4">
-                <motion.div
-                  className="relative w-full h-full"
-                  whileHover={{ filter: "blur(1px)" }}
-                  transition={{ duration: 0.3 }}
-                >
-                  <Image
-                    src={collection.image || "/placeholder.svg"}
-                    alt={collection.name}
-                    fill
-                    className="object-cover"
-                    sizes="320px"
-                  />
-                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-all duration-300" />
-                </motion.div>
-
-                <div className="absolute inset-0 flex items-center justify-center">
+              <Link
+                href={collection.href}
+                onClick={(e) => { if (isDragging) e.preventDefault() }}
+                draggable={false}
+              >
+                <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4">
                   <motion.div
-                    className="text-center text-white"
-                    initial={{ opacity: 0.8 }}
-                    whileHover={{ opacity: 1, scale: 1.05 }}
+                    className="relative w-full h-full"
+                    whileHover={{ filter: "blur(1px)" }}
                     transition={{ duration: 0.3 }}
                   >
-                    <h3 className="text-3xl font-bold tracking-wider mb-2">{collection.name}</h3>
-                    <p className="text-sm opacity-90">{collection.count}</p>
+                    <Image
+                      src={collection.image || "/placeholder.svg"}
+                      alt={collection.name}
+                      fill
+                      className="object-cover"
+                      sizes="320px"
+                    />
+                    <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-all duration-300" />
                   </motion.div>
+
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <motion.div
+                      className="text-center text-white"
+                      initial={{ opacity: 0.8 }}
+                      whileHover={{ opacity: 1, scale: 1.05 }}
+                      transition={{ duration: 0.3 }}
+                    >
+                      <h3 className="text-3xl font-bold tracking-wider mb-2">{collection.name}</h3>
+                      <p className="text-sm opacity-90">{collection.count}</p>
+                    </motion.div>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </motion.div>
           ))}
         </motion.div>

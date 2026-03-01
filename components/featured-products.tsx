@@ -14,7 +14,7 @@ const featuredProducts = [
     price: "¥8,250",
     image: "/images/products/stainless/stainless-prod-0-0.png",
     badge: "New" as const,
-    materials: ["304食品级不锈钢", "一体陶瓷盆"],
+    materials: ["304不锈钢", "防水防潮"],
     swatches: [
       { name: "拉丝银", color: "#C0C0C0" },
       { name: "镜面抛光", color: "#E8E8E8" },
@@ -35,7 +35,7 @@ const featuredProducts = [
     price: "¥15,675",
     image: "/images/products/wood/wood-prod-0-0.jpg",
     badge: "Hot" as const,
-    materials: ["精铜花洒头", "德国恒温阀芯"],
+    materials: ["多层实木烤漆", "经久耐用"],
     swatches: [
       { name: "香槟金", color: "#F7E7CE" },
       { name: "哑光黑", color: "#2F2F2F" },
@@ -56,7 +56,7 @@ const featuredProducts = [
     price: "¥12,890",
     image: "/images/products/shower/shower-prod-0-0.jpg",
     badge: "Limited" as const,
-    materials: ["安全钢化玻璃", "304不锈钢框架"],
+    materials: ["安全钢化玻璃", "极窄边框"],
     swatches: [
       { name: "超白玻璃", color: "#F8F8FF" },
       { name: "磨砂玻璃", color: "#E6E6FA" },
