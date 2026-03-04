@@ -12,7 +12,7 @@ interface Product {
   price: string
   originalPrice?: string
   category: string
-  description: string
+  description?: string
   longDescription: string
   features: string[]
   specifications: Record<string, string>
@@ -274,12 +274,12 @@ export function ProductDetailSection({ product }: ProductDetailSectionProps) {
               {product.name}
             </h1>
             <div className="w-24 h-1 bg-neutral-900 mx-auto mb-8" />
-            <p className="text-lg lg:text-xl text-neutral-600 leading-relaxed max-w-2xl mx-auto">
+            {/* <p className="text-lg lg:text-xl text-neutral-600 leading-relaxed max-w-2xl mx-auto">
               {product.description}
-            </p>
+            </p> */}
             
             {/* 材质标签 */}
-            <div className="flex flex-wrap justify-center gap-3 mt-10">
+            {/* <div className="flex flex-wrap justify-center gap-3 mt-10">
               {product.materials.map((material, index) => (
                 <span 
                   key={index}
@@ -288,7 +288,7 @@ export function ProductDetailSection({ product }: ProductDetailSectionProps) {
                   {material}
                 </span>
               ))}
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </section>

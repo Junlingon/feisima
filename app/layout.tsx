@@ -10,7 +10,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Viesmar菲斯玛 — 高端卫浴，品质生活",
+  title: "VIESMAR菲斯玛 — 高端卫浴，品质生活",
   description: "专业卫浴品牌，为您打造舒适优雅的浴室空间",
   generator: "v0.app",
   alternates: {

@@ -29,7 +29,7 @@ const productsByCategory = {
       },
       {
         id: "7",
-        name: "VIESMAT 一字形平开门淋浴房",
+        name: "VIESMAR 一字形平开门淋浴房",
         image: "/images/products/shower/shower-prod-2-0.jpg",
         badge: "Limited" as const,
       },
