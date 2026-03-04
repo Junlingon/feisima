@@ -17,10 +17,10 @@ const materials = [
   },
   {
     id: "ceramic",
-    name: "陶瓷",
-    description: "高温烧制陶瓷，质地坚硬，易清洁保养",
-    image: "/images/products/shower/shower-00.webp",
-    backgroundImage: "/images/products/shower/shower-05.webp",
+    name: "实木",
+    description: "多层实木烤漆，天然纹理，环保耐用防潮",
+    image: "/images/products/wood/wood-prod-0-0.jpg",
+    backgroundImage: "/images/products/wood/wood-prod-0-0.jpg",
     tint: "bg-blue-50",
   },
   {
