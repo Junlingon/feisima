@@ -10,39 +10,30 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "VIESMAR菲斯玛 — 高端卫浴，品质生活",
-  description: "专业卫浴品牌，为您打造舒适优雅的浴室空间",
-  generator: "v0.app",
+  title: {
+    default: "VIESMAR菲斯玛 — 高端不锈钢卫浴 | 不锈钢浴室柜 | 实木浴室柜 | 淋浴房",
+    template: "%s | VIESMAR菲斯玛",
+  },
+  description: "VIESMAR菲斯玛专业高端卫浴品牌，主营304不锈钢浴室柜、实木浴室柜、不锈钢淋浴房、淋浴花洒、面盆龙头等卫浴产品。食品级不锈钢材质，环保0甲醛，为您打造舒适优雅的浴室空间。",
+  keywords: ["菲斯玛", "VIESMAR", "卫浴", "不锈钢浴室柜", "实木浴室柜", "淋浴房", "浴室柜", "卫浴品牌", "高端卫浴", "304不锈钢浴室柜", "淋浴花洒", "面盆龙头"],
   alternates: {
-    canonical: "https://viesmar.example/",
+    canonical: "http://viesmar.cn/",
   },
   openGraph: {
-    siteName: "Viesmar菲斯玛",
-    title: "高端卫浴，品质生活 | Viesmar菲斯玛",
-    description: "专业卫浴品牌，为您打造舒适优雅的浴室空间",
+    siteName: "VIESMAR菲斯玛",
+    title: "VIESMAR菲斯玛 — 高端不锈钢卫浴品牌",
+    description: "VIESMAR菲斯玛专业高端卫浴品牌，主营304不锈钢浴室柜、实木浴室柜、不锈钢淋浴房等卫浴产品。",
     type: "website",
-    url: "https://viesmar.example/",
-    images: [
-      {
-        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/opengraph-viesmar.jpg-7vz2r3hxZA6woukGOmH115Fg7Piyjs.jpeg",
-        alt: "Viesmar菲斯玛卫浴 — 高端品质，舒适生活",
-        width: 1200,
-        height: 630,
-      },
-    ],
+    url: "http://viesmar.cn/",
     locale: "zh_CN",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "高端卫浴，品质生活 | Viesmar菲斯玛",
-    description: "专业卫浴品牌，为您打造舒适优雅的浴室空间",
-    images: [
-      {
-        url: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/opengraph-viesmar.jpg-7vz2r3hxZA6woukGOmH115Fg7Piyjs.jpeg",
-        alt: "Viesmar菲斯玛卫浴 — 高端品质，舒适生活",
-      },
-    ],
-    site: "@viesmar",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
 }
 
@@ -52,7 +43,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} antialiased`}>
+    <html lang="zh-CN" className={`${inter.variable} antialiased`}>
       <body className="font-sans bg-neutral-50 text-neutral-900 overflow-x-hidden">{children}</body>
     </html>
   )
