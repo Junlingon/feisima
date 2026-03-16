@@ -17,15 +17,30 @@ export const metadata: Metadata = {
   description: "VIESMAR菲斯玛专业高端卫浴品牌，主营304不锈钢浴室柜、实木浴室柜、不锈钢淋浴房、淋浴花洒、面盆龙头等卫浴产品。食品级不锈钢材质，环保0甲醛，为您打造舒适优雅的浴室空间。",
   keywords: ["菲斯玛", "VIESMAR", "卫浴", "不锈钢浴室柜", "实木浴室柜", "淋浴房", "浴室柜", "卫浴品牌", "高端卫浴", "304不锈钢浴室柜", "淋浴花洒", "面盆龙头"],
   alternates: {
-    canonical: "http://viesmar.cn/",
+    canonical: "https://viesmar.cn/",
   },
   openGraph: {
     siteName: "VIESMAR菲斯玛",
     title: "VIESMAR菲斯玛 — 高端不锈钢卫浴品牌",
     description: "VIESMAR菲斯玛专业高端卫浴品牌，主营304不锈钢浴室柜、实木浴室柜、不锈钢淋浴房等卫浴产品。",
     type: "website",
-    url: "http://viesmar.cn/",
+    url: "https://viesmar.cn/",
     locale: "zh_CN",
+    images: [
+      {
+        url: "https://viesmar.cn/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "VIESMAR菲斯玛高端卫浴",
+      },
+    ],
+  },
+  verification: {
+    google: "your-google-verification-code",
+    // 备案通过后在百度搜索资源平台获取验证码后替换
+    other: {
+      "baidu-site-verification": "your-baidu-verification-code",
+    },
   },
   robots: {
     index: true,

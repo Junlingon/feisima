@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'http://viesmar.cn'
+  const baseUrl = 'https://viesmar.cn'
   
   // 产品ID列表
   const productIds = Array.from({ length: 17 }, (_, i) => i + 1)
