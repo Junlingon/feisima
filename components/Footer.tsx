@@ -112,8 +112,28 @@ export function Footer() {
           transition={{ duration: 0.6, delay: 0.3 }}
           viewport={{ once: true }}
         >
-          <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 text-sm text-neutral-500 text-center">
+          <div className="flex flex-col items-center space-y-2 text-sm text-neutral-500 text-center">
             <p>&copy; {currentYear} 朗林环境科技(广州)有限公司. 保留所有权利.</p>
+            <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-1">
+              <a
+                href="https://beian.miit.gov.cn/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-neutral-700 transition-colors"
+              >
+                黔ICP备2026003656号
+              </a>
+              {/* <span className="hidden sm:inline text-neutral-300">|</span>
+              <a
+                href="https://www.beian.gov.cn/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-neutral-700 transition-colors inline-flex items-center gap-1"
+              >
+                <img src="/beian-icon.png" alt="" className="w-4 h-4" />
+                粤公网安备 XXXXXXXXXXXXXX号
+              </a> */}
+            </div>
             <div className="flex space-x-6">
               <a href="#" className="hover:text-neutral-700 transition-colors">
                 隐私政策

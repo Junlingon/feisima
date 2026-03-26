@@ -67,7 +67,7 @@ export function HeroSection() {
         transition={{ duration: 1.2, ease: [0.21, 0.47, 0.32, 0.98] }}
       >
         <Image
-          src="/images/banner.png"
+          src="/images/banner.webp"
           alt="VIESMAR 菲斯玛 - 现代不锈钢浴室柜，英伦品质卫浴空间"
           fill
           className="object-cover"
