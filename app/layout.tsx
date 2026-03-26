@@ -37,9 +37,10 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "your-google-verification-code",
-    // 备案通过后在百度搜索资源平台获取验证码后替换
     other: {
-      "baidu-site-verification": "your-baidu-verification-code",
+      "baidu-site-verification": "codeva-Elakf752bw",
+      "sogou_site_verification": "n4FRSaaRa0",
+      "360-site-verification": "4c9a1f8d1626d40b2160d62920c802f4",
     },
   },
   robots: {
