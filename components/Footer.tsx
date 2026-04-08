@@ -123,16 +123,16 @@ export function Footer() {
               >
                 黔ICP备2026003656号
               </a>
-              {/* <span className="hidden sm:inline text-neutral-300">|</span>
+              <span className="hidden sm:inline text-neutral-300">|</span>
               <a
-                href="https://www.beian.gov.cn/"
+                href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=52011502010016"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-neutral-700 transition-colors inline-flex items-center gap-1"
               >
-                <img src="/beian-icon.png" alt="" className="w-4 h-4" />
-                粤公网安备 XXXXXXXXXXXXXX号
-              </a> */}
+                <img src="/beian-icon.png" alt="公安备案" className="w-4 h-4" />
+                贵公网安备52011502010016号
+              </a>
             </div>
             <div className="flex space-x-6">
               <a href="#" className="hover:text-neutral-700 transition-colors">
